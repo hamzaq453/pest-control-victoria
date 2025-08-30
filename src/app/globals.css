@@ -1,21 +1,43 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Pest Control Victoria Brand Colors */
+  --color-creamy-white: #FFF7E6;
+  --color-light-sage: #AEC3B0;
+  --color-medium-sage: #6B9071;
+  --color-dark-charcoal: #29352A;
+  --color-deep-forest: #375534;
+  
+  /* Default theme colors using brand palette */
+  --background: var(--color-creamy-white);
+  --foreground: var(--color-dark-charcoal);
+  --primary: var(--color-deep-forest);
+  --secondary: var(--color-medium-sage);
+  --accent: var(--color-light-sage);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-creamy-white: var(--color-creamy-white);
+  --color-light-sage: var(--color-light-sage);
+  --color-medium-sage: var(--color-medium-sage);
+  --color-dark-charcoal: var(--color-dark-charcoal);
+  --color-deep-forest: var(--color-deep-forest);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: var(--color-dark-charcoal);
+    --foreground: var(--color-creamy-white);
+    --primary: var(--color-light-sage);
+    --secondary: var(--color-medium-sage);
+    --accent: var(--color-deep-forest);
   }
 }
 
