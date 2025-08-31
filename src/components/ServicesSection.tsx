@@ -35,7 +35,7 @@ export default function ServicesSection() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-[#2E3A24] mb-6">
-            Our <span className="text-[#6B9071]">Featured Services</span>
+            Our <span className="text-deep-forest">Featured Services</span>
           </h2>
           <p className="text-xl text-[#2E3A24]/80 max-w-3xl mx-auto leading-relaxed">
             Professional pest control solutions tailored to your specific needs. 
@@ -84,7 +84,7 @@ export default function ServicesSection() {
                 {/* CTA Button */}
                 <Link
                   href={`/services/${service.id}`}
-                  className="inline-flex items-center justify-center w-full bg-gradient-to-r from-[#2E3A24] to-[#6B9071] text-[#F7F3E9] px-6 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg group-hover:from-[#6B9071] group-hover:to-[#2E3A24] mt-auto"
+                  className="inline-flex items-center justify-center w-full bg-dark-charcoal px-6 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg group-hover:from-[#6B9071] group-hover:to-[#2E3A24] mt-auto"
                 >
                   Learn More
                   <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -100,7 +100,7 @@ export default function ServicesSection() {
         <div className="text-center mt-16">
           <Link
             href="/services"
-            className="inline-flex items-center bg-gradient-to-r from-[#2E3A24] to-[#6B9071] text-[#F7F3E9] px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+            className="inline-flex items-center bg-deep-forest text-creamy-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
           >
             View All Services
             <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
