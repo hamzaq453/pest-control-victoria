@@ -50,7 +50,7 @@ export default function HeroSection() {
         }}
       ></div>
         {/* Vertical Call Now Button - Right Edge */}
-        <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50 hidden lg:block">
+        <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
         <Link 
           href="tel:0451003300" 
           className=" bg-deep-forest hover:bg-deep-forest text-white font-bold px-3 py-4 rounded-l-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex flex-col items-center space-y-1"
