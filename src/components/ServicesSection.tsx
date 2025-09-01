@@ -84,7 +84,7 @@ export default function ServicesSection() {
                 {/* CTA Button */}
                 <Link
                   href={`/services/${service.id}`}
-                  className="inline-flex items-center justify-center w-full bg-dark-charcoal px-6 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg group-hover:from-[#6B9071] group-hover:to-[#2E3A24] mt-auto"
+                  className="inline-flex items-center justify-center w-full text-creamy-white bg-dark-charcoal px-6 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg group-hover:from-[#6B9071] group-hover:to-[#2E3A24] mt-auto"
                 >
                   Learn More
                   <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
