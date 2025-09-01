@@ -34,15 +34,15 @@ export default function Footer() {
           <div className="space-y-6">
             <div className="flex items-center space-x-2">
               <Image
-                src="/Logo-no-bg.png"
+                src="/Logo-footer.png"
                 alt="Pest Free Victoria Logo"
-                width={50}
-                height={50}
+                width={200}
+                height={200}
                 className="object-contain"
               />
               <div>
-                <h3 className="text-xl font-bold">Pest Free Victoria</h3>
-                <p className="text-sm text-creamy-white/80">Professional Pest Control</p>
+                {/* <h3 className="text-xl font-bold">Pest Free Victoria</h3> */}
+                {/* <p className="text-sm text-creamy-white/80">Professional Pest Control</p> */}
               </div>
             </div>
             
