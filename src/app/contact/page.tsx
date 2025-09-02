@@ -86,8 +86,8 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Contact Form Section */}
-      <section className="relative py-20 bg-gradient-to-br from-[#F7F3E9] via-white to-[#F7F3E9] overflow-hidden">
+             {/* Contact Form Section */}
+       <section id="contact-form" className="relative py-20 bg-gradient-to-br from-[#F7F3E9] via-white to-[#F7F3E9] overflow-hidden">
         {/* Background Elements */}
         <div className="absolute inset-0">
           <div className="absolute top-20 left-10 w-32 h-32 bg-[#A8B5A2]/20 rounded-full blur-xl"></div>
