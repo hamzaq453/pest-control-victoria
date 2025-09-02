@@ -58,7 +58,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative py-10 bg-gradient-to-br from-[#4A7C59] via-[#2E5D3A] to-[#1A3D1F] overflow-hidden">
+              <section className="relative py-8 bg-gradient-to-br from-[#4A7C59] via-[#2E5D3A] to-[#1A3D1F] overflow-hidden">
         {/* Background Grid Pattern */}
         <div className="absolute inset-0 opacity-15">
           <div className="absolute inset-0" style={{
@@ -99,15 +99,15 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
 
           {/* Centered Content */}
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-semibold  text-white mb-6 drop-shadow-lg">
-              {service.shortTitle}
-            </h1>
-            <p className="text-xl md:text-2xl font-bold text-[#FFF7E6] mb-6 drop-shadow-md">
-              {service.description}
-            </p>
-            <p className="text-lg text-[#AEC3B0] mb-8 max-w-3xl mx-auto leading-relaxed">
-              {service.longDescription}
-            </p>
+                         <h1 className="text-3xl md:text-5xl font-semibold text-white mb-4 drop-shadow-lg">
+               {service.shortTitle}
+             </h1>
+             <p className="text-lg md:text-xl font-bold text-[#FFF7E6] mb-4 drop-shadow-md">
+               {service.description}
+             </p>
+             <p className="text-base text-[#AEC3B0] mb-6 max-w-2xl mx-auto leading-relaxed">
+               {service.longDescription}
+             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/contact"
