@@ -1,0 +1,122 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "slug": "birds-control",
+      "title": "Birds Control",
+      "shortTitle": "Professional Bird Control Solutions",
+      "description": "Professional bird control solutions to protect your property from damage and health hazards caused by bird infestations.",
+      "longDescription": "Birds can cause significant damage to your property and pose health risks through their droppings, nesting materials, and potential disease transmission. Our professional bird control services provide humane, effective solutions that protect both your property and the birds themselves.",
+      "image": "/S1.jpg",
+      "heroImage": "/S1.jpg",
+      "category": "Wildlife Control",
+      "features": [
+        "Humane Methods",
+        "Property Protection", 
+        "Health Safety",
+        "Long-term Solutions",
+        "Expert Assessment",
+        "Preventive Measures"
+      ],
+      "benefits": [
+        {
+          "title": "Property Protection",
+          "description": "Prevent costly damage to roofs, gutters, facades, and other building structures caused by bird nesting and droppings.",
+          "icon": "shield"
+        },
+        {
+          "title": "Health & Safety",
+          "description": "Eliminate health risks associated with bird droppings, feathers, and nesting materials that can harbor diseases and parasites.",
+          "icon": "heart"
+        },
+        {
+          "title": "Humane Approach",
+          "description": "Our methods prioritize bird welfare while effectively solving your pest problems through relocation and deterrent techniques.",
+          "icon": "leaf"
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Initial Assessment",
+          "description": "Our experts conduct a thorough inspection of your property to identify bird species, nesting locations, and entry points.",
+          "icon": "search"
+        },
+        {
+          "step": 2,
+          "title": "Customized Plan",
+          "description": "We develop a tailored bird control strategy based on the specific species and your property's unique characteristics.",
+          "icon": "clipboard"
+        },
+        {
+          "step": 3,
+          "title": "Implementation",
+          "description": "Professional installation of bird deterrents, exclusion methods, and humane removal techniques as needed.",
+          "icon": "tools"
+        },
+        {
+          "step": 4,
+          "title": "Prevention & Monitoring",
+          "description": "Ongoing monitoring and preventive measures to ensure long-term success and prevent future infestations.",
+          "icon": "eye"
+        }
+      ],
+      "methods": [
+        {
+          "title": "Bird Netting",
+          "description": "Professional installation of high-quality netting to prevent birds from accessing specific areas of your property.",
+          "image": "/S1.jpg"
+        },
+        {
+          "title": "Spike Systems",
+          "description": "Humane deterrent systems that prevent birds from landing and nesting on ledges, signs, and other surfaces.",
+          "image": "/S2.jpg"
+        },
+        {
+          "title": "Sound Deterrents",
+          "description": "Advanced audio systems that emit sounds that birds find unpleasant, encouraging them to relocate.",
+          "image": "/S3.jpg"
+        },
+        {
+          "title": "Visual Deterrents",
+          "description": "Reflective devices and predator decoys that create an environment birds want to avoid.",
+          "image": "/S1.jpg"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How quickly can you resolve a bird infestation?",
+          "answer": "Most bird control situations can be resolved within 1-3 days, depending on the severity and species involved. We prioritize quick response times to minimize damage to your property."
+        },
+        {
+          "question": "Are your bird control methods humane?",
+          "answer": "Absolutely. We use only humane methods that encourage birds to relocate without causing them harm. Our approach focuses on deterrents and exclusion rather than lethal measures."
+        },
+        {
+          "question": "How long do bird control solutions last?",
+          "answer": "Our bird control solutions are designed to provide long-term protection. With proper maintenance and monitoring, most installations last 5-10 years or more."
+        },
+        {
+          "question": "Do you offer emergency bird control services?",
+          "answer": "Yes, we provide emergency bird control services for urgent situations. Contact us immediately if you're experiencing a severe bird infestation that requires immediate attention."
+        }
+      ],
+      "pricing": {
+        "startingPrice": "$299",
+        "description": "Professional bird control services starting from $299. Final pricing depends on property size, bird species, and specific requirements.",
+        "included": [
+          "Initial assessment and consultation",
+          "Customized control plan",
+          "Professional installation",
+          "Follow-up monitoring",
+          "Warranty on materials"
+        ]
+      },
+      "relatedServices": [2, 10, 11, 12],
+      "meta": {
+        "keywords": "bird control, bird removal, bird deterrents, bird proofing, pest control Victoria, wildlife control",
+        "description": "Professional bird control services in Victoria. Humane, effective solutions for bird infestations. Protect your property with expert bird control methods."
+      }
+    }
+  ]
+}
