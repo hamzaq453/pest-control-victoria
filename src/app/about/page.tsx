@@ -5,13 +5,13 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-[#6B9071] via-[#375534] to-[#29352A] overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-br from-[#4A7C59] via-[#2E5D3A] to-[#1A3D1F] overflow-hidden">
         {/* Background Grid Pattern */}
-        <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0 opacity-15">
           <div className="absolute inset-0" style={{
             backgroundImage: `
-              linear-gradient(to right, #2E3A24 1px, transparent 1px),
-              linear-gradient(to bottom, #2E3A24 1px, transparent 1px)
+              linear-gradient(to right, #FFFFFF 1px, transparent 1px),
+              linear-gradient(to bottom, #FFFFFF 1px, transparent 1px)
             `,
             backgroundSize: '60px 60px'
           }}></div>
@@ -19,21 +19,21 @@ export default function AboutPage() {
         
         {/* Floating Geometric Shapes */}
         <div className="absolute inset-0">
-          <div className="absolute top-20 left-10 w-32 h-32 bg-gradient-to-br from-[#6B9071]/20 to-[#A8B5A2]/20 rounded-full blur-xl"></div>
-          <div className="absolute bottom-20 right-10 w-24 h-24 bg-gradient-to-br from-[#2E3A24]/15 to-[#6B9071]/15 rounded-full blur-lg"></div>
-          <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-gradient-to-br from-[#A8B5A2]/20 to-[#F7F3E9]/30 rounded-full blur-md"></div>
-          <div className="absolute top-1/3 right-1/4 w-20 h-20 bg-gradient-to-br from-[#6B9071]/15 to-[#2E3A24]/10 rounded-full blur-lg"></div>
+          <div className="absolute top-20 left-10 w-32 h-32 bg-gradient-to-br from-[#7FB069]/30 to-[#A8D5BA]/30 rounded-full blur-xl"></div>
+          <div className="absolute bottom-20 right-10 w-24 h-24 bg-gradient-to-br from-[#FFFFFF]/20 to-[#7FB069]/20 rounded-full blur-lg"></div>
+          <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-gradient-to-br from-[#A8D5BA]/25 to-[#F7F3E9]/40 rounded-full blur-md"></div>
+          <div className="absolute top-1/3 right-1/4 w-20 h-20 bg-gradient-to-br from-[#7FB069]/20 to-[#FFFFFF]/15 rounded-full blur-lg"></div>
         </div>
 
         {/* Subtle Radial Gradient Overlay */}
-        <div className="absolute inset-0 bg-radial-gradient from-transparent via-transparent to-[#F7F3E9]/30"></div>
+        <div className="absolute inset-0 bg-radial-gradient from-transparent via-transparent to-[#1A3D1F]/40"></div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
           <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-6xl font-bold text-[#2E3A24] mb-6">
-              About <span className="text-white">Pest Free Victoria</span>
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">
+              About <span className="text-[#A8D5BA]">Pest Free Victoria</span>
             </h1>
-            <p className="text-xl text-[#2E3A24]/80 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-white/95 max-w-3xl mx-auto leading-relaxed drop-shadow-md">
               Your trusted partner for professional pest control services across Victoria. 
               We've been protecting homes and businesses since 2009 with reliable, effective, and environmentally conscious solutions.
             </p>
