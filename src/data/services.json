@@ -113,10 +113,2370 @@
         ]
       },
       "relatedServices": [2, 10, 11, 12],
-      "meta": {
-        "keywords": "bird control, bird removal, bird deterrents, bird proofing, pest control Victoria, wildlife control",
-        "description": "Professional bird control services in Victoria. Humane, effective solutions for bird infestations. Protect your property with expert bird control methods."
-      }
-    }
-  ]
-}
+             "meta": {
+         "keywords": "bird control, bird removal, bird deterrents, bird proofing, pest control Victoria, wildlife control",
+         "description": "Professional bird control services in Victoria. Humane, effective solutions for bird infestations. Protect your property with expert bird control methods."
+       }
+     },
+     {
+       "id": 2,
+       "slug": "birds-proofing",
+       "title": "Birds Proofing",
+       "shortTitle": "Professional Bird Proofing Solutions",
+       "description": "Comprehensive bird proofing services for your property.",
+       "longDescription": "Professional bird proofing that prevents birds from nesting and roosting on your property.",
+       "image": "/S2.jpg",
+       "heroImage": "/S2.jpg",
+       "category": "Wildlife Control",
+       "features": [
+         "Long-term Protection",
+         "Property Preservation",
+         "Preventive Approach",
+         "Expert Installation",
+         "Durable Materials",
+         "Warranty Coverage"
+       ],
+       "benefits": [
+         {
+           "title": "Property Preservation",
+           "description": "Protect your building's exterior, roof, and gutters from damage caused by bird nesting and droppings.",
+           "icon": "shield"
+         },
+         {
+           "title": "Long-term Solution",
+           "description": "Permanent bird proofing solutions that provide lasting protection without ongoing maintenance.",
+           "icon": "leaf"
+         },
+         {
+           "title": "Cost Effective",
+           "description": "Prevent expensive repairs and cleaning costs associated with bird infestations.",
+           "icon": "heart"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Site Assessment",
+           "description": "Thorough inspection to identify vulnerable areas and bird entry points.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Solution Design",
+           "description": "Custom proofing strategy tailored to your property's specific needs.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Professional Installation",
+           "description": "Expert installation of bird deterrents and exclusion systems.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Quality Assurance",
+           "description": "Testing and verification to ensure complete bird exclusion.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Bird Netting",
+           "description": "High-quality netting systems to block bird access to specific areas.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Spike Systems",
+           "description": "Humane deterrent spikes to prevent birds from landing on surfaces.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Wire Systems",
+           "description": "Discrete wire barriers that discourage birds from perching.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Exclusion Sealing",
+           "description": "Professional sealing of gaps and entry points to prevent access.",
+           "image": "/S2.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How long does bird proofing last?",
+           "answer": "Our bird proofing solutions are designed to last 10+ years with minimal maintenance required."
+         },
+         {
+           "question": "Is bird proofing humane?",
+           "answer": "Yes, all our methods are humane and designed to deter birds without causing harm."
+         },
+         {
+           "question": "Can you proof any type of building?",
+           "answer": "We provide bird proofing solutions for residential, commercial, and industrial buildings."
+         },
+         {
+           "question": "Do you offer maintenance services?",
+           "answer": "Yes, we provide ongoing maintenance and inspection services to ensure long-term effectiveness."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$399",
+         "description": "Professional bird proofing services starting from $399. Pricing depends on property size and complexity.",
+         "included": [
+           "Site assessment and consultation",
+           "Custom proofing design",
+           "Professional installation",
+           "Quality testing",
+           "Warranty coverage"
+         ]
+       },
+       "relatedServices": [1, 10, 11, 12],
+       "meta": {
+         "keywords": "bird proofing, bird deterrents, bird exclusion, pest control Victoria, wildlife control",
+         "description": "Professional bird proofing services in Victoria. Prevent bird infestations with expert exclusion and deterrent systems."
+       }
+     },
+     {
+       "id": 3,
+       "slug": "bees-infestation",
+       "title": "Bees Infestation",
+       "shortTitle": "Professional Bee Removal Services",
+       "description": "Safe and humane bee removal solutions.",
+       "longDescription": "Expert bee removal and relocation services prioritizing safety and bee conservation.",
+       "image": "/S3.jpg",
+       "heroImage": "/S3.jpg",
+       "category": "Insect Control",
+       "features": [
+         "Bee Conservation",
+         "Safe Removal",
+         "Expert Handling",
+         "Relocation Services",
+         "Emergency Response",
+         "Permit Compliance"
+       ],
+       "benefits": [
+         {
+           "title": "Safety First",
+           "description": "Professional bee removal ensures the safety of your family and property.",
+           "icon": "shield"
+         },
+         {
+           "title": "Bee Conservation",
+           "description": "Humane removal and relocation to preserve bee populations and ecosystem health.",
+           "icon": "heart"
+         },
+         {
+           "title": "Expert Knowledge",
+           "description": "Licensed professionals with extensive experience in bee behavior and removal.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Safety Assessment",
+           "description": "Evaluate the situation and implement necessary safety measures.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Bee Identification",
+           "description": "Identify bee species and determine the best removal approach.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Safe Removal",
+           "description": "Carefully remove bees and hive using appropriate protective equipment.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Relocation",
+           "description": "Relocate bees to a safe environment or professional beekeeper.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Live Removal",
+           "description": "Gentle removal techniques that preserve the bee colony for relocation.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Hive Extraction",
+           "description": "Careful extraction of hives from walls, roofs, and other structures.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Relocation Services",
+           "description": "Professional relocation to suitable environments or beekeepers.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Prevention Measures",
+           "description": "Installation of deterrents to prevent future bee infestations.",
+           "image": "/S3.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you remove bees?",
+           "answer": "Emergency bee removal can be completed within 24 hours for urgent situations."
+         },
+         {
+           "question": "Do you kill the bees?",
+           "answer": "No, we prioritize live removal and relocation to preserve bee populations."
+         },
+         {
+           "question": "What if bees are in my walls?",
+           "answer": "We have specialized equipment to safely extract bees from wall cavities and other structures."
+         },
+         {
+           "question": "Do you offer emergency services?",
+           "answer": "Yes, we provide 24/7 emergency bee removal for urgent situations."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$199",
+         "description": "Professional bee removal services starting from $199. Pricing varies based on hive size and location.",
+         "included": [
+           "Safety assessment",
+           "Professional removal",
+           "Hive extraction",
+           "Relocation services",
+           "Prevention measures"
+         ]
+       },
+       "relatedServices": [1, 2, 10, 11],
+       "meta": {
+         "keywords": "bee removal, bee infestation, bee control, pest control Victoria, insect control",
+         "description": "Professional bee removal services in Victoria. Safe, humane bee removal and relocation with expert handling."
+       }
+     },
+     {
+       "id": 4,
+       "slug": "flea-and-fleas-pest-control",
+       "title": "Flea and Fleas Pest Control",
+       "shortTitle": "Professional Flea Control Services",
+       "description": "Complete flea elimination for your property.",
+       "longDescription": "Comprehensive flea control services ensuring complete elimination and long-lasting results.",
+       "image": "/S1.jpg",
+       "heroImage": "/S1.jpg",
+       "category": "Insect Control",
+       "features": [
+         "Complete Elimination",
+         "Pet Safe",
+         "Long-lasting Results",
+         "Expert Treatment",
+         "Follow-up Service",
+         "Warranty Coverage"
+       ],
+       "benefits": [
+         {
+           "title": "Complete Elimination",
+           "description": "Thorough treatment that eliminates fleas at all life stages from your property.",
+           "icon": "shield"
+         },
+         {
+           "title": "Pet Safe",
+           "description": "Safe treatment methods that protect your pets while effectively eliminating fleas.",
+           "icon": "heart"
+         },
+         {
+           "title": "Long-term Protection",
+           "description": "Preventive measures to ensure fleas don't return to your property.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Infestation Assessment",
+           "description": "Thorough inspection to identify flea sources and infestation levels.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Treatment Plan",
+           "description": "Develop comprehensive treatment strategy for your specific situation.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Professional Treatment",
+           "description": "Apply effective flea control products to eliminate infestation.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Prevention & Monitoring",
+           "description": "Ongoing monitoring and preventive measures to prevent reinfestation.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Chemical Treatment",
+           "description": "Professional-grade insecticides applied safely to eliminate fleas.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Heat Treatment",
+           "description": "High-temperature treatment to kill fleas and their eggs.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Vacuum Treatment",
+           "description": "Deep cleaning and vacuuming to remove fleas and debris.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Preventive Measures",
+           "description": "Installation of barriers and ongoing monitoring services.",
+           "image": "/S1.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How long does flea treatment take?",
+           "answer": "Most flea treatments are completed within 2-4 hours, with follow-up visits as needed."
+         },
+         {
+           "question": "Is the treatment safe for pets?",
+           "answer": "Yes, we use pet-safe products and provide specific instructions for pet safety."
+         },
+         {
+           "question": "How long do results last?",
+           "answer": "Our treatments provide 6-12 months of protection with proper maintenance."
+         },
+         {
+           "question": "Do you treat outdoor areas?",
+           "answer": "Yes, we provide comprehensive indoor and outdoor flea control treatment."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$249",
+         "description": "Professional flea control services starting from $249. Pricing depends on property size and infestation level.",
+         "included": [
+           "Infestation assessment",
+           "Comprehensive treatment",
+           "Follow-up service",
+           "Prevention measures",
+           "Warranty coverage"
+         ]
+       },
+       "relatedServices": [3, 5, 6, 8],
+       "meta": {
+         "keywords": "flea control, flea treatment, flea elimination, pest control Victoria, insect control",
+         "description": "Professional flea control services in Victoria. Complete flea elimination with pet-safe methods and long-lasting results."
+       }
+     },
+     {
+       "id": 5,
+       "slug": "moth-treatment",
+       "title": "Moth Treatment",
+       "shortTitle": "Professional Moth Control Services",
+       "description": "Effective moth control for your property.",
+       "longDescription": "Professional moth treatment protecting clothing, carpets, and stored items from damage.",
+       "image": "/S2.jpg",
+       "heroImage": "/S2.jpg",
+       "category": "Insect Control",
+       "features": [
+         "Clothing Protection",
+         "Stored Items Safety",
+         "Preventive Treatment",
+         "Expert Assessment",
+         "Long-term Control",
+         "Warranty Coverage"
+       ],
+       "benefits": [
+         {
+           "title": "Property Protection",
+           "description": "Protect valuable clothing, carpets, and stored items from moth damage.",
+           "icon": "shield"
+         },
+         {
+           "title": "Preventive Approach",
+           "description": "Stop moth infestations before they cause significant damage to your belongings.",
+           "icon": "leaf"
+         },
+         {
+           "title": "Long-term Solution",
+           "description": "Effective treatment that prevents moths from returning to your property.",
+           "icon": "heart"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Damage Assessment",
+           "description": "Inspect affected areas to identify moth species and damage extent.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Treatment Strategy",
+           "description": "Develop targeted treatment plan for your specific moth problem.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Professional Treatment",
+           "description": "Apply effective moth control products to eliminate infestation.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Prevention & Monitoring",
+           "description": "Install preventive measures and provide ongoing monitoring.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Chemical Treatment",
+           "description": "Professional insecticides to eliminate moths and their larvae.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Heat Treatment",
+           "description": "High-temperature treatment to kill moths and eggs in fabrics.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Vacuum Treatment",
+           "description": "Deep cleaning to remove moth debris and eggs.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Preventive Measures",
+           "description": "Installation of moth deterrents and monitoring systems.",
+           "image": "/S2.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you treat a moth infestation?",
+           "answer": "Most moth treatments can be completed within 1-2 days, depending on the severity."
+         },
+         {
+           "question": "Will the treatment damage my clothing?",
+           "answer": "No, we use safe methods that won't damage your clothing or other items."
+         },
+         {
+           "question": "How long do moth treatments last?",
+           "answer": "Our treatments provide 12+ months of protection with proper maintenance."
+         },
+         {
+           "question": "Do you treat all types of moths?",
+           "answer": "Yes, we treat all common moth species including clothes moths and carpet moths."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$199",
+         "description": "Professional moth control services starting from $199. Pricing depends on infestation level and area size.",
+         "included": [
+           "Damage assessment",
+           "Professional treatment",
+           "Prevention measures",
+           "Follow-up service",
+           "Warranty coverage"
+         ]
+       },
+       "relatedServices": [4, 6, 8, 18],
+       "meta": {
+         "keywords": "moth control, moth treatment, moth elimination, pest control Victoria, insect control",
+         "description": "Professional moth control services in Victoria. Protect your clothing and stored items with expert moth treatment."
+       }
+     },
+     {
+       "id": 6,
+       "slug": "housefly-control",
+       "title": "Housefly Control",
+       "shortTitle": "Professional Housefly Control Services",
+       "description": "Effective housefly control solutions.",
+       "longDescription": "Professional housefly control maintaining clean and hygienic environments.",
+       "image": "/S3.jpg",
+       "heroImage": "/S3.jpg",
+       "category": "Insect Control",
+       "features": [
+         "Hygiene Maintenance",
+         "Quick Results",
+         "Ongoing Prevention",
+         "Expert Assessment",
+         "Safe Treatment",
+         "Warranty Coverage"
+       ],
+       "benefits": [
+         {
+           "title": "Hygiene Improvement",
+           "description": "Maintain clean and hygienic environments free from housefly infestations.",
+           "icon": "shield"
+         },
+         {
+           "title": "Quick Results",
+           "description": "Fast-acting treatments that provide immediate relief from housefly problems.",
+           "icon": "heart"
+         },
+         {
+           "title": "Ongoing Protection",
+           "description": "Preventive measures to keep houseflies from returning to your property.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Infestation Analysis",
+           "description": "Identify housefly sources and breeding areas on your property.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Treatment Plan",
+           "description": "Develop targeted control strategy for your specific situation.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Professional Treatment",
+           "description": "Apply effective housefly control products and methods.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Prevention & Monitoring",
+           "description": "Install preventive measures and provide ongoing monitoring.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Chemical Treatment",
+           "description": "Professional insecticides to eliminate adult flies and larvae.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Breeding Site Elimination",
+           "description": "Remove and treat areas where houseflies breed and develop.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Preventive Barriers",
+           "description": "Install physical barriers to prevent housefly entry.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Ongoing Monitoring",
+           "description": "Regular inspections and treatments to maintain control.",
+           "image": "/S3.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you control houseflies?",
+           "answer": "Most housefly control treatments show results within 24-48 hours."
+         },
+         {
+           "question": "Do you treat outdoor areas?",
+           "answer": "Yes, we provide comprehensive indoor and outdoor housefly control."
+         },
+         {
+           "question": "How long do treatments last?",
+           "answer": "Our treatments provide 3-6 months of protection with proper maintenance."
+         },
+         {
+           "question": "Are the treatments safe for children?",
+           "answer": "Yes, we use safe products and provide specific safety instructions."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$179",
+         "description": "Professional housefly control services starting from $179. Pricing depends on property size and infestation level.",
+         "included": [
+           "Infestation analysis",
+           "Professional treatment",
+           "Prevention measures",
+           "Follow-up service",
+           "Warranty coverage"
+         ]
+       },
+       "relatedServices": [4, 5, 8, 9],
+       "meta": {
+         "keywords": "housefly control, fly control, fly treatment, pest control Victoria, insect control",
+         "description": "Professional housefly control services in Victoria. Maintain clean, hygienic environments with expert fly control."
+       }
+     },
+     {
+       "id": 7,
+       "slug": "possum-removal",
+       "title": "Possum Removal",
+       "shortTitle": "Professional Possum Removal Services",
+       "description": "Safe and humane possum removal solutions.",
+       "longDescription": "Expert possum removal and relocation services ensuring wildlife safety and property protection.",
+       "image": "/S1.jpg",
+       "heroImage": "/S1.jpg",
+       "category": "Wildlife Control",
+       "features": [
+         "Humane Removal",
+         "Wildlife Safety",
+         "Property Protection",
+         "Expert Handling",
+         "Relocation Services",
+         "Prevention Measures"
+       ],
+       "benefits": [
+         {
+           "title": "Property Protection",
+           "description": "Protect your roof, attic, and garden from damage caused by possum activity and nesting.",
+           "icon": "shield"
+         },
+         {
+           "title": "Wildlife Conservation",
+           "description": "Humane removal and relocation to preserve possum populations and ecosystem balance.",
+           "icon": "heart"
+         },
+         {
+           "title": "Long-term Solution",
+           "description": "Preventive measures to ensure possums don't return to your property.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Site Assessment",
+           "description": "Thorough inspection to identify possum entry points and nesting areas.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Safe Removal",
+           "description": "Humane capture and removal using approved wildlife handling techniques.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Relocation",
+           "description": "Safe relocation to suitable natural habitats away from residential areas.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Prevention & Sealing",
+           "description": "Install deterrents and seal entry points to prevent future access.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Humane Trapping",
+           "description": "Safe capture methods using approved wildlife traps and handling techniques.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Entry Point Sealing",
+           "description": "Professional sealing of roof gaps, vents, and other access points.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Deterrent Installation",
+           "description": "Installation of motion-activated deterrents and exclusion systems.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Habitat Modification",
+           "description": "Modify garden areas to make them less attractive to possums.",
+           "image": "/S1.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you remove possums?",
+           "answer": "Most possum removal can be completed within 24-48 hours, depending on the situation."
+         },
+         {
+           "question": "Do you kill the possums?",
+           "answer": "No, we use only humane methods and relocate possums to suitable natural habitats."
+         },
+         {
+           "question": "What if possums are in my roof?",
+           "answer": "We have specialized equipment to safely remove possums from roof cavities and attics."
+         },
+         {
+           "question": "How do you prevent them from returning?",
+           "answer": "We seal all entry points and install deterrents to prevent future possum access."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$299",
+         "description": "Professional possum removal services starting from $299. Pricing depends on location and complexity.",
+         "included": [
+           "Site assessment",
+           "Humane removal",
+           "Safe relocation",
+           "Entry point sealing",
+           "Prevention measures"
+         ]
+       },
+       "relatedServices": [1, 2, 8, 9],
+       "meta": {
+         "keywords": "possum removal, possum control, wildlife removal, pest control Victoria, wildlife control",
+         "description": "Professional possum removal services in Victoria. Safe, humane possum removal and relocation with expert wildlife handling."
+       }
+     },
+     {
+       "id": 8,
+       "slug": "rat-control",
+       "title": "Rat Control",
+       "shortTitle": "Professional Rat Control Services",
+       "description": "Complete rat elimination for your property.",
+       "longDescription": "Comprehensive rat control services ensuring complete elimination and long-lasting protection.",
+       "image": "/S2.jpg",
+       "heroImage": "/S2.jpg",
+       "category": "Rodent Control",
+       "features": [
+         "Complete Elimination",
+         "Health Safety",
+         "Property Protection",
+         "Expert Treatment",
+         "Prevention Focus",
+         "Warranty Coverage"
+       ],
+       "benefits": [
+         {
+           "title": "Health Protection",
+           "description": "Eliminate health risks associated with rat droppings, urine, and disease transmission.",
+           "icon": "shield"
+         },
+         {
+           "title": "Property Safety",
+           "description": "Protect your property from structural damage caused by rat gnawing and nesting.",
+           "icon": "heart"
+         },
+         {
+           "title": "Long-term Control",
+           "description": "Preventive measures to ensure rats don't return to your property.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Infestation Assessment",
+           "description": "Thorough inspection to identify rat entry points, nesting areas, and activity levels.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Treatment Strategy",
+           "description": "Develop comprehensive control plan targeting all rat access points.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Professional Treatment",
+           "description": "Apply effective rodent control products and install exclusion systems.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Prevention & Monitoring",
+           "description": "Ongoing monitoring and preventive measures to maintain control.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Chemical Control",
+           "description": "Professional rodenticides applied safely to eliminate rat populations.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Exclusion Systems",
+           "description": "Installation of barriers and sealing of entry points to prevent access.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Trapping Systems",
+           "description": "Strategic placement of professional traps for effective rat capture.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Preventive Measures",
+           "description": "Ongoing monitoring and maintenance to prevent reinfestation.",
+           "image": "/S2.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you eliminate rats?",
+           "answer": "Most rat control treatments show results within 3-7 days, with complete elimination in 1-2 weeks."
+         },
+         {
+           "question": "Are the treatments safe for pets?",
+           "answer": "Yes, we use pet-safe products and provide specific safety instructions for your pets."
+         },
+         {
+           "question": "How long do rat control treatments last?",
+           "answer": "Our treatments provide 6-12 months of protection with proper maintenance and monitoring."
+         },
+         {
+           "question": "Do you treat outdoor areas?",
+           "answer": "Yes, we provide comprehensive indoor and outdoor rat control treatment."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$249",
+         "description": "Professional rat control services starting from $249. Pricing depends on infestation level and property size.",
+         "included": [
+           "Infestation assessment",
+           "Comprehensive treatment",
+           "Exclusion systems",
+           "Follow-up service",
+           "Warranty coverage"
+         ]
+       },
+       "relatedServices": [4, 6, 7, 9],
+       "meta": {
+         "keywords": "rat control, rat elimination, rodent control, pest control Victoria, rodent control",
+         "description": "Professional rat control services in Victoria. Complete rat elimination with safe methods and long-lasting protection."
+       }
+     },
+     {
+       "id": 9,
+       "slug": "mouse-control",
+       "title": "Mouse Control",
+       "shortTitle": "Professional Mouse Control Services",
+       "description": "Effective mouse elimination for your property.",
+       "longDescription": "Professional mouse control services ensuring complete elimination and ongoing protection.",
+       "image": "/S3.jpg",
+       "heroImage": "/S3.jpg",
+       "category": "Rodent Control",
+       "features": [
+         "Complete Elimination",
+         "Quick Results",
+         "Health Safety",
+         "Expert Treatment",
+         "Prevention Focus",
+         "Warranty Coverage"
+       ],
+       "benefits": [
+         {
+           "title": "Health Safety",
+           "description": "Eliminate health risks from mouse droppings, urine, and disease transmission.",
+           "icon": "shield"
+         },
+         {
+           "title": "Quick Results",
+           "description": "Fast-acting treatments that provide immediate relief from mouse problems.",
+           "icon": "heart"
+         },
+         {
+           "title": "Long-term Protection",
+           "description": "Preventive measures to keep mice from returning to your property.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Activity Assessment",
+           "description": "Identify mouse entry points, nesting areas, and activity patterns.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Control Strategy",
+           "description": "Develop targeted treatment plan for your specific mouse problem.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Professional Treatment",
+           "description": "Apply effective mouse control products and install exclusion systems.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Prevention & Monitoring",
+           "description": "Ongoing monitoring and preventive measures to maintain control.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Chemical Control",
+           "description": "Professional rodenticides applied safely to eliminate mouse populations.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Exclusion Systems",
+           "description": "Installation of barriers and sealing of entry points to prevent access.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Trapping Systems",
+           "description": "Strategic placement of professional traps for effective mouse capture.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Preventive Measures",
+           "description": "Ongoing monitoring and maintenance to prevent reinfestation.",
+           "image": "/S3.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you control mice?",
+           "answer": "Most mouse control treatments show results within 24-48 hours, with complete elimination in 3-7 days."
+         },
+         {
+           "question": "Are the treatments safe for children?",
+           "answer": "Yes, we use safe products and provide specific safety instructions for your family."
+         },
+         {
+           "question": "How long do mouse control treatments last?",
+           "answer": "Our treatments provide 6-12 months of protection with proper maintenance and monitoring."
+         },
+         {
+           "question": "Do you treat commercial properties?",
+           "answer": "Yes, we provide mouse control services for residential and commercial properties."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$199",
+         "description": "Professional mouse control services starting from $199. Pricing depends on infestation level and property size.",
+         "included": [
+           "Activity assessment",
+           "Professional treatment",
+           "Exclusion systems",
+           "Follow-up service",
+           "Warranty coverage"
+         ]
+       },
+       "relatedServices": [4, 6, 8, 10],
+       "meta": {
+         "keywords": "mouse control, mouse elimination, rodent control, pest control Victoria, rodent control",
+         "description": "Professional mouse control services in Victoria. Complete mouse elimination with safe methods and long-lasting protection."
+       }
+     },
+     {
+       "id": 10,
+       "slug": "spider-control",
+       "title": "Spider Control",
+       "shortTitle": "Professional Spider Control Services",
+       "description": "Effective spider control for your property.",
+       "longDescription": "Professional spider control services ensuring safe and effective elimination.",
+       "image": "/S1.jpg",
+       "heroImage": "/S1.jpg",
+       "category": "Insect Control",
+       "features": [
+         "Safe Elimination",
+         "Web Removal",
+         "Prevention Focus",
+         "Expert Treatment",
+         "Long-term Control",
+         "Warranty Coverage"
+       ],
+       "benefits": [
+         {
+           "title": "Safety First",
+           "description": "Eliminate dangerous spider species and reduce bite risks for your family.",
+           "icon": "shield"
+         },
+         {
+           "title": "Clean Environment",
+           "description": "Remove unsightly spider webs and maintain a clean property appearance.",
+           "icon": "heart"
+         },
+         {
+           "title": "Long-term Control",
+           "description": "Preventive measures to keep spiders from returning to your property.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Spider Assessment",
+           "description": "Identify spider species, nesting areas, and web locations on your property.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Treatment Plan",
+           "description": "Develop targeted control strategy for your specific spider problem.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Professional Treatment",
+           "description": "Apply effective spider control products and remove existing webs.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Prevention & Monitoring",
+           "description": "Install preventive measures and provide ongoing monitoring.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Chemical Treatment",
+           "description": "Professional insecticides applied safely to eliminate spiders and their eggs.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Web Removal",
+           "description": "Complete removal of existing spider webs and egg sacs.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Barrier Treatment",
+           "description": "Installation of preventive barriers to keep spiders away.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Ongoing Prevention",
+           "description": "Regular treatments and monitoring to maintain spider-free environment.",
+           "image": "/S1.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you control spiders?",
+           "answer": "Most spider control treatments show immediate results, with complete control within 24-48 hours."
+         },
+         {
+           "question": "Are the treatments safe for pets?",
+           "answer": "Yes, we use pet-safe products and provide specific safety instructions for your pets."
+         },
+         {
+           "question": "How long do spider control treatments last?",
+           "answer": "Our treatments provide 3-6 months of protection with proper maintenance and monitoring."
+         },
+         {
+           "question": "Do you treat outdoor areas?",
+           "answer": "Yes, we provide comprehensive indoor and outdoor spider control treatment."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$179",
+         "description": "Professional spider control services starting from $179. Pricing depends on property size and infestation level.",
+         "included": [
+           "Spider assessment",
+           "Professional treatment",
+           "Web removal",
+           "Prevention measures",
+           "Follow-up service"
+         ]
+       },
+       "relatedServices": [3, 4, 5, 6],
+       "meta": {
+         "keywords": "spider control, spider elimination, insect control, pest control Victoria, spider treatment",
+         "description": "Professional spider control services in Victoria. Safe and effective spider elimination with long-lasting protection."
+       }
+     },
+     {
+       "id": 11,
+       "slug": "ant-control",
+       "title": "Ant Control",
+       "shortTitle": "Professional Ant Control Services",
+       "description": "Complete ant elimination for your property.",
+       "longDescription": "Professional ant control services ensuring complete elimination and long-lasting protection.",
+       "image": "/S2.jpg",
+       "heroImage": "/S2.jpg",
+       "category": "Insect Control",
+       "features": [
+         "Complete Elimination",
+         "Colony Treatment",
+         "Long-term Control",
+         "Expert Assessment",
+         "Prevention Focus",
+         "Warranty Coverage"
+       ],
+       "benefits": [
+         {
+           "title": "Complete Control",
+           "description": "Eliminate entire ant colonies, not just visible workers, for lasting results.",
+           "icon": "shield"
+         },
+         {
+           "title": "Property Protection",
+           "description": "Protect your property from structural damage caused by carpenter ants.",
+           "icon": "heart"
+         },
+         {
+           "title": "Long-term Solution",
+           "description": "Preventive measures to ensure ants don't return to your property.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Colony Assessment",
+           "description": "Identify ant species, colony locations, and entry points on your property.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Treatment Strategy",
+           "description": "Develop comprehensive control plan targeting the entire ant colony.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Professional Treatment",
+           "description": "Apply effective ant control products to eliminate the entire colony.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Prevention & Monitoring",
+           "description": "Install preventive measures and provide ongoing monitoring.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Colony Treatment",
+           "description": "Professional insecticides that eliminate entire ant colonies, including queens.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Entry Point Sealing",
+           "description": "Seal cracks, gaps, and other entry points to prevent ant access.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Barrier Treatment",
+           "description": "Installation of preventive barriers to keep ants away from your property.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Ongoing Prevention",
+           "description": "Regular treatments and monitoring to maintain ant-free environment.",
+           "image": "/S2.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you eliminate ants?",
+           "answer": "Most ant control treatments show results within 24-48 hours, with complete elimination in 3-7 days."
+         },
+         {
+           "question": "Do you treat carpenter ants?",
+           "answer": "Yes, we specialize in carpenter ant control and can prevent structural damage to your property."
+         },
+         {
+           "question": "How long do ant control treatments last?",
+           "answer": "Our treatments provide 6-12 months of protection with proper maintenance and monitoring."
+         },
+         {
+           "question": "Do you treat outdoor ant colonies?",
+           "answer": "Yes, we provide comprehensive indoor and outdoor ant control treatment."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$199",
+         "description": "Professional ant control services starting from $199. Pricing depends on infestation level and property size.",
+         "included": [
+           "Colony assessment",
+           "Professional treatment",
+           "Entry point sealing",
+           "Prevention measures",
+           "Follow-up service"
+         ]
+       },
+       "relatedServices": [4, 5, 6, 10],
+       "meta": {
+         "keywords": "ant control, ant elimination, insect control, pest control Victoria, ant treatment",
+         "description": "Professional ant control services in Victoria. Complete ant elimination with colony treatment and long-lasting protection."
+       }
+     },
+     {
+       "id": 12,
+       "slug": "termite-control",
+       "title": "Termite Control",
+       "shortTitle": "Professional Termite Control Services",
+       "description": "Complete termite elimination for your property.",
+       "longDescription": "Professional termite control services protecting your property from structural damage.",
+       "image": "/S3.jpg",
+       "heroImage": "/S3.jpg",
+       "category": "Wood Destroying Pests",
+       "features": [
+         "Structural Protection",
+         "Complete Elimination",
+         "Prevention Focus",
+         "Expert Assessment",
+         "Long-term Control",
+         "Warranty Coverage"
+       ],
+       "benefits": [
+         {
+           "title": "Property Protection",
+           "description": "Protect your home's structural integrity from costly termite damage and destruction.",
+           "icon": "shield"
+         },
+         {
+           "title": "Early Detection",
+           "description": "Identify termite activity before significant damage occurs to your property.",
+           "icon": "heart"
+         },
+         {
+           "title": "Long-term Solution",
+           "description": "Preventive measures to ensure termites don't return to your property.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Comprehensive Inspection",
+           "description": "Thorough termite inspection using advanced detection technology and expert assessment.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Treatment Strategy",
+           "description": "Develop targeted control plan for your specific termite infestation.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Professional Treatment",
+           "description": "Apply effective termite control products and install monitoring systems.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Prevention & Monitoring",
+           "description": "Install preventive barriers and provide ongoing monitoring services.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Chemical Treatment",
+           "description": "Professional termiticides applied to soil and structural elements.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Bait Systems",
+           "description": "Strategic placement of termite bait stations for colony elimination.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Barrier Installation",
+           "description": "Physical and chemical barriers to prevent termite access.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Monitoring Systems",
+           "description": "Ongoing monitoring to detect and prevent future infestations.",
+           "image": "/S3.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you eliminate termites?",
+           "answer": "Most termite control treatments show results within 1-2 weeks, with complete elimination in 1-3 months."
+         },
+         {
+           "question": "Do you offer free inspections?",
+           "answer": "Yes, we provide free termite inspections to assess your property's risk and current status."
+         },
+         {
+           "question": "How long do termite treatments last?",
+           "answer": "Our treatments provide 5-10 years of protection with proper maintenance and monitoring."
+         },
+         {
+           "question": "Can you treat existing damage?",
+           "answer": "Yes, we can treat existing termite damage and recommend repairs as needed."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$599",
+         "description": "Professional termite control services starting from $599. Pricing depends on property size and infestation level.",
+         "included": [
+           "Comprehensive inspection",
+           "Professional treatment",
+           "Barrier installation",
+           "Monitoring systems",
+           "Warranty coverage"
+         ]
+       },
+       "relatedServices": [8, 9, 13, 14],
+       "meta": {
+         "keywords": "termite control, termite treatment, termite elimination, pest control Victoria, wood destroying pests",
+         "description": "Professional termite control services in Victoria. Protect your property from structural damage with expert termite control."
+       }
+     },
+     {
+       "id": 13,
+       "slug": "cockroach-control",
+       "title": "Cockroach Control",
+       "shortTitle": "Professional Cockroach Control Services",
+       "description": "Complete cockroach elimination for your property.",
+       "longDescription": "Professional cockroach control services ensuring complete elimination and ongoing protection.",
+       "image": "/S1.jpg",
+       "heroImage": "/S1.jpg",
+       "category": "Insect Control",
+       "features": [
+         "Complete Elimination",
+         "Health Safety",
+         "Quick Results",
+         "Expert Treatment",
+         "Prevention Focus",
+         "Warranty Coverage"
+       ],
+       "benefits": [
+         {
+           "title": "Health Protection",
+           "description": "Eliminate health risks from cockroach droppings, allergens, and disease transmission.",
+           "icon": "shield"
+         },
+         {
+           "title": "Quick Results",
+           "description": "Fast-acting treatments that provide immediate relief from cockroach problems.",
+           "icon": "heart"
+         },
+         {
+           "title": "Long-term Control",
+           "description": "Preventive measures to keep cockroaches from returning to your property.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Infestation Assessment",
+           "description": "Identify cockroach species, breeding areas, and entry points on your property.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Treatment Strategy",
+           "description": "Develop comprehensive control plan targeting all cockroach access points.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Professional Treatment",
+           "description": "Apply effective cockroach control products and install exclusion systems.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Prevention & Monitoring",
+           "description": "Install preventive measures and provide ongoing monitoring.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Chemical Treatment",
+           "description": "Professional insecticides applied safely to eliminate cockroaches.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Bait Systems",
+           "description": "Strategic placement of cockroach bait stations for effective control.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Exclusion Systems",
+           "description": "Seal entry points and install barriers to prevent access.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Ongoing Prevention",
+           "description": "Regular treatments and monitoring to maintain control.",
+           "image": "/S1.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you eliminate cockroaches?",
+           "answer": "Most cockroach control treatments show results within 24-48 hours, with complete elimination in 1-2 weeks."
+         },
+         {
+           "question": "Are the treatments safe for children?",
+           "answer": "Yes, we use safe products and provide specific safety instructions for your family."
+         },
+         {
+           "question": "How long do cockroach control treatments last?",
+           "answer": "Our treatments provide 6-12 months of protection with proper maintenance and monitoring."
+         },
+         {
+           "question": "Do you treat commercial properties?",
+           "answer": "Yes, we provide cockroach control services for residential and commercial properties."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$249",
+         "description": "Professional cockroach control services starting from $249. Pricing depends on infestation level and property size.",
+         "included": [
+           "Infestation assessment",
+           "Professional treatment",
+           "Exclusion systems",
+           "Follow-up service",
+           "Warranty coverage"
+         ]
+       },
+       "relatedServices": [4, 5, 6, 10],
+       "meta": {
+         "keywords": "cockroach control, cockroach elimination, insect control, pest control Victoria, cockroach treatment",
+         "description": "Professional cockroach control services in Victoria. Complete cockroach elimination with safe methods and long-lasting protection."
+       }
+     },
+     {
+       "id": 14,
+       "slug": "silverfish-control",
+       "title": "Silverfish Control",
+       "shortTitle": "Professional Silverfish Control Services",
+       "description": "Effective silverfish elimination for your property.",
+       "longDescription": "Professional silverfish control services protecting paper, clothing, and stored items.",
+       "image": "/S2.jpg",
+       "heroImage": "/S2.jpg",
+       "category": "Insect Control",
+       "features": [
+         "Item Protection",
+         "Complete Elimination",
+         "Prevention Focus",
+         "Expert Assessment",
+         "Long-term Control",
+         "Warranty Coverage"
+       ],
+       "benefits": [
+         {
+           "title": "Item Protection",
+           "description": "Protect valuable books, documents, clothing, and stored items from silverfish damage.",
+           "icon": "shield"
+         },
+         {
+           "title": "Preventive Approach",
+           "description": "Stop silverfish infestations before they cause significant damage to your belongings.",
+           "icon": "heart"
+         },
+         {
+           "title": "Long-term Solution",
+           "description": "Effective treatment that prevents silverfish from returning to your property.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Damage Assessment",
+           "description": "Inspect affected areas to identify silverfish activity and damage extent.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Treatment Strategy",
+           "description": "Develop targeted control plan for your specific silverfish problem.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Professional Treatment",
+           "description": "Apply effective silverfish control products to eliminate infestation.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Prevention & Monitoring",
+           "description": "Install preventive measures and provide ongoing monitoring.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Chemical Treatment",
+           "description": "Professional insecticides to eliminate silverfish and their eggs.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Heat Treatment",
+           "description": "High-temperature treatment to kill silverfish in affected areas.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Exclusion Systems",
+           "description": "Seal entry points and install barriers to prevent access.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Preventive Measures",
+           "description": "Installation of deterrents and monitoring systems.",
+           "image": "/S2.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you control silverfish?",
+           "answer": "Most silverfish control treatments show results within 24-48 hours, with complete elimination in 1-2 weeks."
+         },
+         {
+           "question": "Will the treatment damage my books?",
+           "answer": "No, we use safe methods that won't damage your books, documents, or other items."
+         },
+         {
+           "question": "How long do silverfish treatments last?",
+           "answer": "Our treatments provide 12+ months of protection with proper maintenance and monitoring."
+         },
+         {
+           "question": "Do you treat all areas of the property?",
+           "answer": "Yes, we provide comprehensive treatment for all areas where silverfish may be present."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$179",
+         "description": "Professional silverfish control services starting from $179. Pricing depends on infestation level and area size.",
+         "included": [
+           "Damage assessment",
+           "Professional treatment",
+           "Prevention measures",
+           "Follow-up service",
+           "Warranty coverage"
+         ]
+       },
+       "relatedServices": [5, 6, 10, 11],
+       "meta": {
+         "keywords": "silverfish control, silverfish elimination, insect control, pest control Victoria, silverfish treatment",
+         "description": "Professional silverfish control services in Victoria. Protect your valuable items with expert silverfish control."
+       }
+     },
+     {
+       "id": 15,
+       "slug": "bed-bug-control",
+       "title": "Bed Bug Control",
+       "shortTitle": "Professional Bed Bug Control Services",
+       "description": "Complete bed bug elimination for your property.",
+       "longDescription": "Professional bed bug control services ensuring complete elimination and long-lasting protection.",
+       "image": "/S3.jpg",
+       "heroImage": "/S3.jpg",
+       "category": "Insect Control",
+       "features": [
+         "Complete Elimination",
+         "Health Safety",
+         "Expert Treatment",
+         "Prevention Focus",
+         "Long-term Control",
+         "Warranty Coverage"
+       ],
+       "benefits": [
+         {
+           "title": "Health Protection",
+           "description": "Eliminate health risks from bed bug bites and ensure peaceful sleep for your family.",
+           "icon": "shield"
+         },
+         {
+           "title": "Complete Control",
+           "description": "Thorough treatment that eliminates bed bugs at all life stages from your property.",
+           "icon": "heart"
+         },
+         {
+           "title": "Long-term Solution",
+           "description": "Preventive measures to ensure bed bugs don't return to your property.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Infestation Assessment",
+           "description": "Thorough inspection to identify bed bug locations and infestation levels.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Treatment Strategy",
+           "description": "Develop comprehensive control plan for your specific bed bug problem.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Professional Treatment",
+           "description": "Apply effective bed bug control products and methods.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Prevention & Monitoring",
+           "description": "Install preventive measures and provide ongoing monitoring.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Chemical Treatment",
+           "description": "Professional insecticides applied safely to eliminate bed bugs.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Heat Treatment",
+           "description": "High-temperature treatment to kill bed bugs and their eggs.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Steam Treatment",
+           "description": "Professional steam treatment for sensitive areas and items.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Preventive Measures",
+           "description": "Installation of barriers and ongoing monitoring services.",
+           "image": "/S3.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you eliminate bed bugs?",
+           "answer": "Most bed bug control treatments show results within 24-48 hours, with complete elimination in 1-2 weeks."
+         },
+         {
+           "question": "Is the treatment safe for children?",
+           "answer": "Yes, we use safe products and provide specific safety instructions for your family."
+         },
+         {
+           "question": "How long do bed bug treatments last?",
+           "answer": "Our treatments provide 6-12 months of protection with proper maintenance and monitoring."
+         },
+         {
+           "question": "Do you treat furniture and bedding?",
+           "answer": "Yes, we provide comprehensive treatment for all affected areas including furniture and bedding."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$299",
+         "description": "Professional bed bug control services starting from $299. Pricing depends on infestation level and property size.",
+         "included": [
+           "Infestation assessment",
+           "Comprehensive treatment",
+           "Prevention measures",
+           "Follow-up service",
+           "Warranty coverage"
+         ]
+       },
+       "relatedServices": [4, 5, 6, 13],
+       "meta": {
+         "keywords": "bed bug control, bed bug elimination, insect control, pest control Victoria, bed bug treatment",
+         "description": "Professional bed bug control services in Victoria. Complete bed bug elimination with safe methods and long-lasting protection."
+       }
+     },
+     {
+       "id": 16,
+       "slug": "wasp-control",
+       "title": "Wasp Control",
+       "shortTitle": "Professional Wasp Control Services",
+       "description": "Safe and effective wasp elimination.",
+       "longDescription": "Professional wasp control services ensuring safety and complete elimination.",
+       "image": "/S1.jpg",
+       "heroImage": "/S1.jpg",
+       "category": "Insect Control",
+       "features": [
+         "Safety First",
+         "Complete Elimination",
+         "Emergency Response",
+         "Expert Handling",
+         "Prevention Focus",
+         "Warranty Coverage"
+       ],
+       "benefits": [
+         {
+           "title": "Safety Protection",
+           "description": "Ensure the safety of your family and visitors from painful wasp stings.",
+           "icon": "shield"
+         },
+         {
+           "title": "Quick Results",
+           "description": "Fast-acting treatments that provide immediate relief from wasp problems.",
+           "icon": "heart"
+         },
+         {
+           "title": "Long-term Control",
+           "description": "Preventive measures to keep wasps from returning to your property.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Safety Assessment",
+           "description": "Evaluate the situation and implement necessary safety measures.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Wasp Identification",
+           "description": "Identify wasp species and determine the best control approach.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Safe Elimination",
+           "description": "Carefully eliminate wasps and nests using appropriate protective equipment.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Prevention & Monitoring",
+           "description": "Install deterrents and provide ongoing monitoring.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Chemical Control",
+           "description": "Professional insecticides applied safely to eliminate wasps and nests.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Nest Removal",
+           "description": "Safe removal of wasp nests from your property.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Deterrent Installation",
+           "description": "Installation of wasp deterrents to prevent future nesting.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Ongoing Prevention",
+           "description": "Regular inspections and preventive measures to maintain control.",
+           "image": "/S1.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you eliminate wasps?",
+           "answer": "Most wasp control treatments show immediate results, with complete elimination within 24 hours."
+         },
+         {
+           "question": "Do you offer emergency services?",
+           "answer": "Yes, we provide emergency wasp control services for urgent situations."
+         },
+         {
+           "question": "How long do wasp control treatments last?",
+           "answer": "Our treatments provide 6-12 months of protection with proper maintenance and monitoring."
+         },
+         {
+           "question": "Are the treatments safe for pets?",
+           "answer": "Yes, we use safe products and provide specific safety instructions for your pets."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$199",
+         "description": "Professional wasp control services starting from $199. Pricing depends on nest size and location.",
+         "included": [
+           "Safety assessment",
+           "Professional treatment",
+           "Nest removal",
+           "Prevention measures",
+           "Follow-up service"
+         ]
+       },
+       "relatedServices": [3, 10, 13, 15],
+       "meta": {
+         "keywords": "wasp control, wasp elimination, insect control, pest control Victoria, wasp treatment",
+         "description": "Professional wasp control services in Victoria. Safe and effective wasp elimination with long-lasting protection."
+       }
+     },
+     {
+       "id": 17,
+       "slug": "snake-removal",
+       "title": "Snake Removal",
+       "shortTitle": "Professional Snake Removal Services",
+       "description": "Safe and humane snake removal solutions.",
+       "longDescription": "Expert snake removal and relocation services ensuring wildlife safety and property protection.",
+       "image": "/S2.jpg",
+       "heroImage": "/S2.jpg",
+       "category": "Wildlife Control",
+       "features": [
+         "Humane Removal",
+         "Wildlife Safety",
+         "Emergency Response",
+         "Expert Handling",
+         "Relocation Services",
+         "Prevention Measures"
+       ],
+       "benefits": [
+         {
+           "title": "Safety First",
+           "description": "Ensure the safety of your family and pets from potentially dangerous snake encounters.",
+           "icon": "shield"
+         },
+         {
+           "title": "Wildlife Conservation",
+           "description": "Humane removal and relocation to preserve snake populations and ecosystem balance.",
+           "icon": "heart"
+         },
+         {
+           "title": "Long-term Solution",
+           "description": "Preventive measures to keep snakes from returning to your property.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Safety Assessment",
+           "description": "Evaluate the situation and implement necessary safety measures for all involved.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Snake Identification",
+           "description": "Identify snake species and determine the best removal approach.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Safe Removal",
+           "description": "Carefully capture and remove snakes using appropriate handling techniques.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Relocation & Prevention",
+           "description": "Relocate snakes to suitable habitats and install deterrents.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Humane Capture",
+           "description": "Safe capture methods using professional snake handling equipment.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Habitat Modification",
+           "description": "Modify your property to make it less attractive to snakes.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Deterrent Installation",
+           "description": "Install snake deterrents and exclusion systems.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Relocation Services",
+           "description": "Safe relocation to suitable natural habitats away from residential areas.",
+           "image": "/S2.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you remove snakes?",
+           "answer": "Emergency snake removal can be completed within 2-4 hours for urgent situations."
+         },
+         {
+           "question": "Do you kill the snakes?",
+           "answer": "No, we use only humane methods and relocate snakes to suitable natural habitats."
+         },
+         {
+           "question": "What if snakes are venomous?",
+           "answer": "We have specialized training and equipment to safely handle all snake species, including venomous ones."
+         },
+         {
+           "question": "Do you offer emergency services?",
+           "answer": "Yes, we provide 24/7 emergency snake removal for urgent situations."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$299",
+         "description": "Professional snake removal services starting from $299. Pricing depends on species and location.",
+         "included": [
+           "Safety assessment",
+           "Professional removal",
+           "Safe relocation",
+           "Prevention measures",
+           "Follow-up service"
+         ]
+       },
+       "relatedServices": [1, 2, 7, 18],
+       "meta": {
+         "keywords": "snake removal, snake control, wildlife removal, pest control Victoria, wildlife control",
+         "description": "Professional snake removal services in Victoria. Safe, humane snake removal and relocation with expert wildlife handling."
+       }
+     },
+     {
+       "id": 18,
+       "slug": "carpet-beetle-control",
+       "title": "Carpet Beetle Control",
+       "shortTitle": "Professional Carpet Beetle Control Services",
+       "description": "Effective carpet beetle elimination for your property.",
+       "longDescription": "Professional carpet beetle control services protecting carpets, furniture, and stored items.",
+       "image": "/S3.jpg",
+       "heroImage": "/S3.jpg",
+       "category": "Insect Control",
+       "features": [
+         "Item Protection",
+         "Complete Elimination",
+         "Prevention Focus",
+         "Expert Assessment",
+         "Long-term Control",
+         "Warranty Coverage"
+       ],
+       "benefits": [
+         {
+           "title": "Property Protection",
+           "description": "Protect valuable carpets, furniture, and stored items from carpet beetle damage.",
+           "icon": "shield"
+         },
+         {
+           "title": "Preventive Approach",
+           "description": "Stop carpet beetle infestations before they cause significant damage to your belongings.",
+           "icon": "heart"
+         },
+         {
+           "title": "Long-term Solution",
+           "description": "Effective treatment that prevents carpet beetles from returning to your property.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Damage Assessment",
+           "description": "Inspect affected areas to identify carpet beetle activity and damage extent.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Treatment Strategy",
+           "description": "Develop targeted control plan for your specific carpet beetle problem.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Professional Treatment",
+           "description": "Apply effective carpet beetle control products to eliminate infestation.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Prevention & Monitoring",
+           "description": "Install preventive measures and provide ongoing monitoring.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Chemical Treatment",
+           "description": "Professional insecticides to eliminate carpet beetles and their larvae.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Heat Treatment",
+           "description": "High-temperature treatment to kill carpet beetles in fabrics and carpets.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Vacuum Treatment",
+           "description": "Deep cleaning to remove carpet beetle debris and eggs.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Preventive Measures",
+           "description": "Installation of deterrents and monitoring systems.",
+           "image": "/S3.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you control carpet beetles?",
+           "answer": "Most carpet beetle control treatments show results within 24-48 hours, with complete elimination in 1-2 weeks."
+         },
+         {
+           "question": "Will the treatment damage my carpets?",
+           "answer": "No, we use safe methods that won't damage your carpets, furniture, or other items."
+         },
+         {
+           "question": "How long do carpet beetle treatments last?",
+           "answer": "Our treatments provide 12+ months of protection with proper maintenance and monitoring."
+         },
+         {
+           "question": "Do you treat all areas of the property?",
+           "answer": "Yes, we provide comprehensive treatment for all areas where carpet beetles may be present."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$199",
+         "description": "Professional carpet beetle control services starting from $199. Pricing depends on infestation level and area size.",
+         "included": [
+           "Damage assessment",
+           "Professional treatment",
+           "Prevention measures",
+           "Follow-up service",
+           "Warranty coverage"
+         ]
+       },
+       "relatedServices": [5, 14, 15, 19],
+       "meta": {
+         "keywords": "carpet beetle control, carpet beetle elimination, insect control, pest control Victoria, carpet beetle treatment",
+         "description": "Professional carpet beetle control services in Victoria. Protect your carpets and furniture with expert carpet beetle control."
+       }
+     },
+     {
+       "id": 19,
+       "slug": "clothes-moth-control",
+       "title": "Clothes Moth Control",
+       "shortTitle": "Professional Clothes Moth Control Services",
+       "description": "Complete clothes moth elimination for your property.",
+       "longDescription": "Professional clothes moth control services protecting clothing, textiles, and stored items.",
+       "image": "/S1.jpg",
+       "heroImage": "/S1.jpg",
+       "category": "Insect Control",
+       "features": [
+         "Clothing Protection",
+         "Complete Elimination",
+         "Prevention Focus",
+         "Expert Assessment",
+         "Long-term Control",
+         "Warranty Coverage"
+       ],
+       "benefits": [
+         {
+           "title": "Clothing Protection",
+           "description": "Protect valuable clothing, textiles, and stored items from clothes moth damage.",
+           "icon": "shield"
+         },
+         {
+           "title": "Preventive Approach",
+           "description": "Stop clothes moth infestations before they cause significant damage to your belongings.",
+           "icon": "heart"
+         },
+         {
+           "title": "Long-term Solution",
+           "description": "Effective treatment that prevents clothes moths from returning to your property.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Damage Assessment",
+           "description": "Inspect affected areas to identify clothes moth activity and damage extent.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Treatment Strategy",
+           "description": "Develop targeted control plan for your specific clothes moth problem.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Professional Treatment",
+           "description": "Apply effective clothes moth control products to eliminate infestation.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Prevention & Monitoring",
+           "description": "Install preventive measures and provide ongoing monitoring.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Chemical Treatment",
+           "description": "Professional insecticides to eliminate clothes moths and their larvae.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Heat Treatment",
+           "description": "High-temperature treatment to kill clothes moths in fabrics and textiles.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Vacuum Treatment",
+           "description": "Deep cleaning to remove clothes moth debris and eggs.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Preventive Measures",
+           "description": "Installation of deterrents and monitoring systems.",
+           "image": "/S1.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you control clothes moths?",
+           "answer": "Most clothes moth control treatments show results within 24-48 hours, with complete elimination in 1-2 weeks."
+         },
+         {
+           "question": "Will the treatment damage my clothing?",
+           "answer": "No, we use safe methods that won't damage your clothing, textiles, or other items."
+         },
+         {
+           "question": "How long do clothes moth treatments last?",
+           "answer": "Our treatments provide 12+ months of protection with proper maintenance and monitoring."
+         },
+         {
+           "question": "Do you treat all types of fabrics?",
+           "answer": "Yes, we treat all types of fabrics including wool, silk, cotton, and synthetic materials."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$179",
+         "description": "Professional clothes moth control services starting from $179. Pricing depends on infestation level and area size.",
+         "included": [
+           "Damage assessment",
+           "Professional treatment",
+           "Prevention measures",
+           "Follow-up service",
+           "Warranty coverage"
+         ]
+       },
+       "relatedServices": [5, 14, 18, 20],
+       "meta": {
+         "keywords": "clothes moth control, clothes moth elimination, insect control, pest control Victoria, clothes moth treatment",
+         "description": "Professional clothes moth control services in Victoria. Protect your clothing and textiles with expert clothes moth control."
+       }
+     },
+     {
+       "id": 20,
+       "slug": "pigeon-control",
+       "title": "Pigeon Control",
+       "shortTitle": "Professional Pigeon Control Services",
+       "description": "Effective pigeon control solutions for your property.",
+       "longDescription": "Professional pigeon control services ensuring humane removal and long-lasting protection.",
+       "image": "/S2.jpg",
+       "heroImage": "/S2.jpg",
+       "category": "Wildlife Control",
+       "features": [
+         "Humane Methods",
+         "Property Protection",
+         "Health Safety",
+         "Expert Assessment",
+         "Long-term Solutions",
+         "Prevention Focus"
+       ],
+       "benefits": [
+         {
+           "title": "Property Protection",
+           "description": "Protect your building's exterior, roof, and gutters from damage caused by pigeon nesting and droppings.",
+           "icon": "shield"
+         },
+         {
+           "title": "Health & Safety",
+           "description": "Eliminate health risks associated with pigeon droppings and nesting materials.",
+           "icon": "heart"
+         },
+         {
+           "title": "Long-term Solution",
+           "description": "Preventive measures to ensure pigeons don't return to your property.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Site Assessment",
+           "description": "Thorough inspection to identify pigeon entry points and nesting areas.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Control Strategy",
+           "description": "Develop targeted control plan for your specific pigeon problem.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Professional Treatment",
+           "description": "Apply effective pigeon control methods and install deterrents.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Prevention & Monitoring",
+           "description": "Install preventive measures and provide ongoing monitoring.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Bird Netting",
+           "description": "High-quality netting systems to block pigeon access to specific areas.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Spike Systems",
+           "description": "Humane deterrent spikes to prevent pigeons from landing on surfaces.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Wire Systems",
+           "description": "Discrete wire barriers that discourage pigeons from perching.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Exclusion Sealing",
+           "description": "Professional sealing of gaps and entry points to prevent access.",
+           "image": "/S2.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you control pigeons?",
+           "answer": "Most pigeon control treatments show results within 24-48 hours, with complete control in 1-2 weeks."
+         },
+         {
+           "question": "Are your pigeon control methods humane?",
+           "answer": "Yes, we use only humane methods that encourage pigeons to relocate without causing them harm."
+         },
+         {
+           "question": "How long do pigeon control solutions last?",
+           "answer": "Our pigeon control solutions provide 5-10 years of protection with proper maintenance."
+         },
+         {
+           "question": "Do you treat commercial buildings?",
+           "answer": "Yes, we provide pigeon control services for residential, commercial, and industrial buildings."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$349",
+         "description": "Professional pigeon control services starting from $349. Pricing depends on property size and complexity.",
+         "included": [
+           "Site assessment",
+           "Professional treatment",
+           "Deterrent installation",
+           "Prevention measures",
+           "Follow-up service"
+         ]
+       },
+       "relatedServices": [1, 2, 7, 17],
+       "meta": {
+         "keywords": "pigeon control, pigeon removal, wildlife control, pest control Victoria, pigeon deterrents",
+         "description": "Professional pigeon control services in Victoria. Humane and effective pigeon control with long-lasting protection."
+       }
+     },
+     {
+       "id": 21,
+       "slug": "mole-control",
+       "title": "Mole Control",
+       "shortTitle": "Professional Mole Control Services",
+       "description": "Effective mole control for your garden and lawn.",
+       "longDescription": "Professional mole control services protecting your garden and lawn from damage.",
+       "image": "/S3.jpg",
+       "heroImage": "/S3.jpg",
+       "category": "Wildlife Control",
+       "features": [
+         "Garden Protection",
+         "Lawn Preservation",
+         "Humane Methods",
+         "Expert Assessment",
+         "Long-term Control",
+         "Prevention Focus"
+       ],
+       "benefits": [
+         {
+           "title": "Garden Protection",
+           "description": "Protect your garden and lawn from damage caused by mole tunneling and burrowing.",
+           "icon": "shield"
+         },
+         {
+           "title": "Lawn Preservation",
+           "description": "Maintain the beauty and health of your lawn by eliminating mole damage.",
+           "icon": "heart"
+         },
+         {
+           "title": "Long-term Solution",
+           "description": "Preventive measures to ensure moles don't return to your property.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Activity Assessment",
+           "description": "Identify mole activity patterns and damage extent in your garden and lawn.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Control Strategy",
+           "description": "Develop targeted control plan for your specific mole problem.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Professional Treatment",
+           "description": "Apply effective mole control methods and install deterrents.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Prevention & Monitoring",
+           "description": "Install preventive measures and provide ongoing monitoring.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Humane Trapping",
+           "description": "Safe capture methods using approved mole traps and handling techniques.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Deterrent Installation",
+           "description": "Installation of mole deterrents and exclusion systems.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Habitat Modification",
+           "description": "Modify garden areas to make them less attractive to moles.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Ongoing Prevention",
+           "description": "Regular monitoring and preventive measures to maintain control.",
+           "image": "/S3.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you control moles?",
+           "answer": "Most mole control treatments show results within 1-2 weeks, with complete control in 2-4 weeks."
+         },
+         {
+           "question": "Do you kill the moles?",
+           "answer": "No, we use humane methods and can relocate moles to suitable natural habitats when possible."
+         },
+         {
+           "question": "How long do mole control treatments last?",
+           "answer": "Our mole control solutions provide 6-12 months of protection with proper maintenance."
+         },
+         {
+           "question": "Do you treat large properties?",
+           "answer": "Yes, we provide mole control services for properties of all sizes, including large gardens and farms."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$249",
+         "description": "Professional mole control services starting from $249. Pricing depends on property size and infestation level.",
+         "included": [
+           "Activity assessment",
+           "Professional treatment",
+           "Deterrent installation",
+           "Prevention measures",
+           "Follow-up service"
+         ]
+       },
+       "relatedServices": [7, 17, 20, 22],
+       "meta": {
+         "keywords": "mole control, mole elimination, wildlife control, pest control Victoria, garden protection",
+         "description": "Professional mole control services in Victoria. Protect your garden and lawn with expert mole control."
+       }
+     }
+   ]
+ }
