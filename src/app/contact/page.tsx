@@ -7,7 +7,8 @@ export default function ContactPage() {
     name: '',
     email: '',
     phone: '',
-    service: ''
+    service: '',
+    message: ''
   });
 
   const services = [
@@ -18,33 +19,88 @@ export default function ContactPage() {
     'Flea and Fleas Pest Control',
     'Moth Treatment',
     'Housefly Control',
-    'Mice Control',
-    'Ant Control',
-    'Cockroach Control',
-    'Dead Animal Removal',
     'Possum Removal',
-    'Possum Control',
-    'Mice and Rats',
-    'Bedbug Extermination',
-    'Residential Pest Management',
-    'Commercial Pest Management Solution',
-    'General Pest Control',
+    'Rat Control',
+    'Mouse Control',
     'Spider Control',
-    'Same Day Emergency Services',
-    'Wasp Control'
+    'Ant Control',
+    'Termite Control',
+    'Cockroach Control',
+    'Silverfish Control',
+    'Bed Bug Control',
+    'Wasp Control',
+    'Snake Removal',
+    'Carpet Beetle Control',
+    'Clothes Moth Control',
+    'Pigeon Control',
+    'Mole Control'
   ];
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<{
+    type: 'success' | 'error' | null;
+    message: string;
+  }>({ type: null, message: '' });
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
     });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
+    
+    if (formData.service === '' || formData.service === 'Select a Service') {
+      setSubmitStatus({
+        type: 'error',
+        message: 'Please select a service'
+      });
+      return;
+    }
+
+    setIsSubmitting(true);
+    setSubmitStatus({ type: null, message: '' });
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setSubmitStatus({
+          type: 'success',
+          message: data.message
+        });
+        // Reset form
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          service: '',
+          message: ''
+        });
+      } else {
+        setSubmitStatus({
+          type: 'error',
+          message: data.error || 'Something went wrong. Please try again.'
+        });
+      }
+    } catch (error) {
+      setSubmitStatus({
+        type: 'error',
+        message: 'Network error. Please check your connection and try again.'
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -219,19 +275,69 @@ export default function ContactPage() {
                     </div>
                   </div>
 
+                  {/* Message Field */}
+                  <div className="group">
+                    <label htmlFor="message" className="block text-sm font-semibold text-[#2E3A24] mb-3 group-hover:text-[#6B9071] transition-colors duration-200">
+                      Message *
+                    </label>
+                    <div className="relative">
+                      <textarea
+                        id="message"
+                        name="message"
+                        value={formData.message}
+                        onChange={handleChange}
+                        required
+                        rows={4}
+                        className="w-full px-6 py-4 border-2 border-[#A8B5A2]/30 rounded-xl focus:ring-4 focus:ring-[#6B9071]/20 focus:border-[#6B9071] outline-none transition-all duration-300 bg-white/80 backdrop-blur-sm text-[#2E3A24] placeholder-[#2E3A24]/50 group-hover:border-[#6B9071]/50 resize-none"
+                        placeholder="Describe your pest problem or specific requirements"
+                      />
+                      <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
+                    </div>
+                  </div>
+
+                  {/* Status Message */}
+                  {submitStatus.type && (
+                    <div className={`p-4 rounded-xl text-sm font-medium ${
+                      submitStatus.type === 'success' 
+                        ? 'bg-green-100 text-green-800 border border-green-200' 
+                        : 'bg-red-100 text-red-800 border border-red-200'
+                    }`}>
+                      {submitStatus.message}
+                    </div>
+                  )}
+
                   {/* Submit Button */}
                   <div className="pt-6">
                     <button
                       type="submit"
-                      className="w-full bg-gradient-to-r from-[#2E3A24] to-[#6B9071] text-[#F7F3E9] py-5 px-8 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-[#6B9071]/30 relative overflow-hidden group"
+                      disabled={isSubmitting}
+                      className={`w-full py-5 px-8 rounded-xl font-bold text-lg transition-all duration-300 transform focus:outline-none focus:ring-4 focus:ring-[#6B9071]/30 relative overflow-hidden group ${
+                        isSubmitting 
+                          ? 'bg-gray-400 cursor-not-allowed' 
+                          : 'bg-gradient-to-r from-[#2E3A24] to-[#6B9071] text-[#F7F3E9] hover:scale-105 hover:shadow-2xl'
+                      }`}
                     >
                       <span className="relative z-10 flex items-center justify-center space-x-2">
-                        <span>Get Free Quote</span>
-                        <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                        </svg>
+                        {isSubmitting ? (
+                          <>
+                            <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                            </svg>
+                            <span>Sending...</span>
+                          </>
+                        ) : (
+                          <>
+                            <span>Get Free Quote</span>
+                            <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                            </svg>
+                          </>
+                        )}
                       </span>
-                      <div className="absolute inset-0 bg-gradient-to-r from-[#6B9071] to-[#2E3A24] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                      {!isSubmitting && (
+                        <div className="absolute inset-0 bg-gradient-to-r from-[#6B9071] to-[#2E3A24] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                      )}
                     </button>
                   </div>
                 </form>
