@@ -50,7 +50,7 @@ export default function Navbar() {
           {/* Get Quote Button */}
           <div className="hidden md:block">
             <Link
-              href="/quote"
+              href="/contact"
               className="bg-deep-forest text-creamy-white hover:bg-medium-sage px-6 py-2 rounded-lg text-lg font-mono transition-colors duration-200"
             >
               Get Quote
@@ -105,7 +105,7 @@ export default function Navbar() {
               ))}
               <div className="pt-4">
                 <Link
-                  href="/quote"
+                  href="/contact"
                   className="bg-deep-forest text-creamy-white hover:bg-medium-sage block px-3 py-2 rounded-md text-base font-mono transition-colors duration-200"
                   onClick={() => setIsMenuOpen(false)}
                 >

@@ -52,7 +52,7 @@ export async function POST(request: NextRequest) {
     console.error('Contact form error:', error);
     return NextResponse.json(
       { 
-        error: 'Something went wrong. Please try again or call us directly at (0451) 003-300.' 
+        error: 'Something went wrong. Please try again or call us directly at (0451) 004-400.' 
       },
       { status: 500 }
     );

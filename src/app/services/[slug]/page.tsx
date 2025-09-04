@@ -116,7 +116,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                 Get Free Quote
               </Link>
               <a
-                href="tel:(0451) 003-300"
+                href="tel:(0451) 004-400"
                 className="border-2 border-[#FFF7E6] text-[#FFF7E6] px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#FFF7E6] hover:text-[#29352A] transition-colors duration-300"
               >
                 Call Now
@@ -293,7 +293,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
               Get Free Quote
             </Link>
             <a
-              href="tel:(0451) 003-300"
+              href="tel:(0451) 004-400"
               className="border-2 border-[#F7F3E9] text-[#F7F3E9] px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#F7F3E9] hover:text-[#2E3A24] transition-colors duration-300"
             >
               Call Now

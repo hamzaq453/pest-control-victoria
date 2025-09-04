@@ -321,7 +321,7 @@ export default function ContactSection() {
                 </div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold mb-2">(0451) 003-300</div>
+                <div className="text-3xl font-bold mb-2">(0451) 004-400</div>
                 <p className="text-white/80">Available round the clock</p>
               </div>
             </div>

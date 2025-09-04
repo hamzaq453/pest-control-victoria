@@ -360,7 +360,7 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold mb-2">(0451) 003-300</div>
+                  <div className="text-3xl font-bold mb-2">(0451) 004-400</div>
                   <p className="text-white/80">Available round the clock</p>
                 </div>
               </div>
@@ -459,7 +459,7 @@ export default function ContactPage() {
               </div>
               <h3 className="text-xl font-bold text-[#2E3A24] mb-4">Phone</h3>
               <p className="text-[#2E3A24]/70 mb-4">Call us anytime for immediate assistance</p>
-              <div className="text-2xl font-bold text-[#6B9071]">(0451) 003-300</div>
+              <div className="text-2xl font-bold text-[#6B9071]">(0451) 004-400</div>
               <p className="text-sm text-[#2E3A24]/60">24/7 Emergency Service</p>
             </div>
 
@@ -504,7 +504,7 @@ export default function ContactPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:(0451) 003-300"
+              href="tel:(0451) 004-400"
               className="bg-[#F7F3E9] text-[#2E3A24] px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white transition-colors duration-300"
             >
               Call Now

@@ -37,7 +37,7 @@ export const sendContactEmail = async (formData: {
           <p><strong>Phone:</strong> ${phone}</p>
         </div>
         
-        <p>If you have any urgent concerns, please call us at <strong>(0451) 003-300</strong>.</p>
+        <p>If you have any urgent concerns, please call us at <strong>(0451) 004-400</strong>.</p>
         
         <p>Best regards,<br>
         <strong>Pest Control Victoria Team</strong></p>

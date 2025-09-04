@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function TestimonialsSection() {
   const testimonials = [
@@ -122,9 +123,9 @@ export default function TestimonialsSection() {
               Experience the same level of professional service and satisfaction. Get your free quote today and see why we're Victoria's trusted pest control experts.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-[#F7F3E9] text-[#2E3A24] px-8 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+              <Link href="/contact" className="bg-[#F7F3E9] text-[#2E3A24] px-8 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
                 Get Free Quote
-              </button>
+              </Link>
               {/* <button className="border-2 border-[#F7F3E9] text-[#F7F3E9] px-8 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 hover:bg-[#F7F3E9] hover:text-[#2E3A24]">
                 Read More Reviews
               </button> */}
