@@ -7,7 +7,7 @@ export default function ServicesSection() {
       id: 1,
       title: "Residential Pest Management",
       description: "Comprehensive pest control solutions for your home, protecting your family and property from unwanted pests.",
-      image: "/S1.jpg",
+      image: "/residential.png",
       features: ["Licensed & Insured", "Eco-Friendly Solutions", "Guaranteed Results"],
       color: "from-[#A8B5A2] to-[#6B9071]"
     },
@@ -15,7 +15,7 @@ export default function ServicesSection() {
       id: 2,
       title: "Commercial Pest Management",
       description: "Professional pest management solutions for businesses, ensuring compliance and maintaining your reputation.",
-      image: "/S2.jpg",
+      image: "/commercial.png",
       features: ["24/7 Support", "Compliance Certified", "Minimal Disruption"],
       color: "from-[#6B9071] to-[#2E3A24]"
     },
@@ -23,7 +23,7 @@ export default function ServicesSection() {
       id: 3,
       title: "Emergency Pest Control",
       description: "Same-day emergency services for urgent pest infestations that require immediate attention.",
-      image: "/S3.jpg",
+      image: "/emergency.jpg",
       features: ["Same Day Service", "24/7 Response", "Emergency Hotline"],
       color: "from-[#2E3A24] to-[#1A2314]"
     }

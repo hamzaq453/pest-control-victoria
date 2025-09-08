@@ -38,7 +38,7 @@ export default function ServicesPage() {
       slug: "moth-treatment",
       title: "Moth Treatment",
       description: "Professional moth control services to protect your clothing, carpets, and stored items from damage.",
-      image: "/S2.jpg",
+      image: "/moth.jpg",
       features: ["Clothing Protection", "Stored Items Safety", "Preventive Treatment"],
       category: "Insect Control",
       color: "from-[#6B9071] to-[#2E3A24]"
@@ -48,23 +48,13 @@ export default function ServicesPage() {
       slug: "housefly-control",
       title: "Housefly Control",
       description: "Effective housefly control solutions to maintain a clean and hygienic environment in your home or business.",
-      image: "/S3.jpg",
+      image: "/housefly.jpg",
       features: ["Hygiene Maintenance", "Quick Results", "Ongoing Prevention"],
       category: "Insect Control",
       color: "from-[#2E3A24] to-[#1A2314]"
     },
     {
       id: 6,
-      slug: "mice-control",
-      title: "Mice Control",
-      description: "Comprehensive mouse control services using proven methods to eliminate infestations and prevent future problems.",
-      image: "/mice.png",
-      features: ["Complete Elimination", "Prevention Methods", "Safe Solutions"],
-      category: "Rodent Control",
-      color: "from-[#A8B5A2] to-[#6B9071]"
-    },
-    {
-      id: 7,
       slug: "ant-control",
       title: "Ant Control",
       description: "Professional ant control services to eliminate ant colonies and prevent future infestations in your property.",
@@ -74,17 +64,17 @@ export default function ServicesPage() {
       color: "from-[#6B9071] to-[#2E3A24]"
     },
     {
-      id: 8,
+      id: 7,
       slug: "cockroach-control",
       title: "Cockroach Control",
       description: "Effective cockroach elimination services using advanced techniques to ensure complete eradication.",
-      image: "/S3.jpg",
+      image: "/cockroach.jpg",
       features: ["Complete Eradication", "Advanced Techniques", "Health Protection"],
       category: "Insect Control",
       color: "from-[#2E3A24] to-[#1A2314]"
     },
     {
-      id: 9,
+      id: 8,
       slug: "dead-animal-removal",
       title: "Dead Animal Removal",
       description: "Professional and humane dead animal removal services, ensuring proper disposal and sanitization.",
@@ -94,7 +84,7 @@ export default function ServicesPage() {
       color: "from-[#A8B5A2] to-[#6B9071]"
     },
     {
-      id: 10,
+      id: 9,
       slug: "possum-control-and-removal",
       title: "Possum Control and Removal",
       description: "Comprehensive possum control and removal services that protect both the animals and your property from damage.",
@@ -104,7 +94,7 @@ export default function ServicesPage() {
       color: "from-[#6B9071] to-[#2E3A24]"
     },
     {
-      id: 11,
+      id: 10,
       slug: "mice-and-rats",
       title: "Mice and Rats",
       description: "Complete rodent control services for both mice and rats, ensuring your property remains pest-free.",
@@ -114,7 +104,7 @@ export default function ServicesPage() {
       color: "from-[#A8B5A2] to-[#6B9071]"
     },
     {
-      id: 12,
+      id: 11,
       slug: "bedbug-extermination",
       title: "Bedbug Extermination",
       description: "Professional bedbug extermination services using proven methods to completely eliminate infestations.",
@@ -124,7 +114,7 @@ export default function ServicesPage() {
       color: "from-[#6B9071] to-[#2E3A24]"
     },
     {
-      id: 13,
+      id: 12,
       slug: "residential-pest-management",
       title: "Residential Pest Management",
       description: "Comprehensive pest control solutions for residential properties, protecting your home and family.",
@@ -134,7 +124,7 @@ export default function ServicesPage() {
       color: "from-[#2E3A24] to-[#1A2314]"
     },
     {
-      id: 14,
+      id: 13,
       slug: "commercial-pest-management-solution",
       title: "Commercial Pest Management Solution",
       description: "Professional pest management solutions for businesses, ensuring compliance and maintaining your reputation.",
@@ -144,7 +134,7 @@ export default function ServicesPage() {
       color: "from-[#A8B5A2] to-[#6B9071]"
     },
     {
-      id: 15,
+      id: 14,
       slug: "general-pest-control",
       title: "General Pest Control",
       description: "All-encompassing pest control services covering a wide range of common household and commercial pests.",
@@ -154,7 +144,7 @@ export default function ServicesPage() {
       color: "from-[#6B9071] to-[#2E3A24]"
     },
     {
-      id: 16,
+      id: 15,
       slug: "spider-control",
       title: "Spider Control",
       description: "Effective spider control services to eliminate dangerous and nuisance spiders from your property.",
@@ -164,17 +154,17 @@ export default function ServicesPage() {
       color: "from-[#2E3A24] to-[#1A2314]"
     },
     {
-      id: 17,
+      id: 16,
       slug: "same-day-emergency-services",
       title: "Same Day Emergency Services",
       description: "24/7 emergency pest control services for urgent situations requiring immediate attention.",
-      image: "/S1.jpg",
+      image: "/emergency.jpg",
       features: ["24/7 Availability", "Same Day Response", "Emergency Hotline"],
       category: "Emergency",
       color: "from-[#A8B5A2] to-[#6B9071]"
     },
     {
-      id: 18,
+      id: 17,
       slug: "wasp-control",
       title: "Wasp Control",
       description: "Professional wasp control and removal services, ensuring safety for you and your family.",
