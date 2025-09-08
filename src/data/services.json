@@ -361,7 +361,7 @@
        "shortTitle": "Professional Flea Control Services",
        "description": "Complete flea elimination for your property.",
        "longDescription": "Comprehensive flea control services ensuring complete elimination and long-lasting results.",
-       "image": "/S1.jpg",
+       "image": "/Flea.png",
        "heroImage": "/S1.jpg",
        "category": "Insect Control",
        "features": [
@@ -710,16 +710,16 @@
      },
      {
        "id": 7,
-       "slug": "possum-removal",
-       "title": "Possum Removal",
-       "shortTitle": "Professional Possum Removal Services",
-       "description": "Safe and humane possum removal solutions.",
-       "longDescription": "Expert possum removal and relocation services ensuring wildlife safety and property protection.",
-       "image": "/S1.jpg",
-       "heroImage": "/S1.jpg",
+       "slug": "possum-control-and-removal",
+       "title": "Possum Control and Removal",
+       "shortTitle": "Professional Possum Control and Removal Services",
+       "description": "Comprehensive possum control and removal solutions.",
+       "longDescription": "Expert possum control, removal, and relocation services ensuring wildlife safety and property protection.",
+       "image": "/possum.png",
+       "heroImage": "/possum.png",
        "category": "Wildlife Control",
        "features": [
-         "Humane Removal",
+         "Humane Control & Removal",
          "Wildlife Safety",
          "Property Protection",
          "Expert Handling",
@@ -734,12 +734,12 @@
          },
          {
            "title": "Wildlife Conservation",
-           "description": "Humane removal and relocation to preserve possum populations and ecosystem balance.",
+           "description": "Humane control, removal, and relocation to preserve possum populations and ecosystem balance.",
            "icon": "heart"
          },
          {
            "title": "Long-term Solution",
-           "description": "Preventive measures to ensure possums don't return to your property.",
+           "description": "Comprehensive control and preventive measures to ensure possums don't return to your property.",
            "icon": "leaf"
          }
        ],
@@ -752,8 +752,8 @@
          },
          {
            "step": 2,
-           "title": "Safe Removal",
-           "description": "Humane capture and removal using approved wildlife handling techniques.",
+           "title": "Control & Removal",
+           "description": "Humane capture, control, and removal using approved wildlife handling techniques.",
            "icon": "clipboard"
          },
          {
@@ -771,8 +771,8 @@
        ],
        "methods": [
          {
-           "title": "Humane Trapping",
-           "description": "Safe capture methods using approved wildlife traps and handling techniques.",
+           "title": "Humane Trapping & Control",
+           "description": "Safe capture and control methods using approved wildlife traps and handling techniques.",
            "image": "/S1.jpg"
          },
          {
@@ -793,8 +793,8 @@
        ],
        "faqs": [
          {
-           "question": "How quickly can you remove possums?",
-           "answer": "Most possum removal can be completed within 24-48 hours, depending on the situation."
+           "question": "How quickly can you control and remove possums?",
+           "answer": "Most possum control and removal can be completed within 24-48 hours, depending on the situation."
          },
          {
            "question": "Do you kill the possums?",
@@ -802,19 +802,19 @@
          },
          {
            "question": "What if possums are in my roof?",
-           "answer": "We have specialized equipment to safely remove possums from roof cavities and attics."
+           "answer": "We have specialized equipment to safely control and remove possums from roof cavities and attics."
          },
          {
            "question": "How do you prevent them from returning?",
-           "answer": "We seal all entry points and install deterrents to prevent future possum access."
+           "answer": "We provide comprehensive control measures, seal all entry points, and install deterrents to prevent future possum access."
          }
        ],
        "pricing": {
          "startingPrice": "$299",
-         "description": "Professional possum removal services starting from $299. Pricing depends on location and complexity.",
+         "description": "Professional possum control and removal services starting from $299. Pricing depends on location and complexity.",
          "included": [
            "Site assessment",
-           "Humane removal",
+           "Humane control and removal",
            "Safe relocation",
            "Entry point sealing",
            "Prevention measures"
@@ -822,8 +822,8 @@
        },
        "relatedServices": [1, 2, 8, 9],
        "meta": {
-         "keywords": "possum removal, possum control, wildlife removal, pest control Victoria, wildlife control",
-         "description": "Professional possum removal services in Victoria. Safe, humane possum removal and relocation with expert wildlife handling."
+         "keywords": "possum control, possum removal, wildlife control, wildlife removal, pest control Victoria, possum control and removal",
+         "description": "Professional possum control and removal services in Victoria. Safe, humane possum control, removal and relocation with expert wildlife handling."
        }
      },
      {
