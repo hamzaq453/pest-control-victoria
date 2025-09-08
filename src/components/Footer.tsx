@@ -21,7 +21,7 @@ export default function Footer() {
     { name: "Services", href: "/services" },
     { name: "Contact", href: "/contact" },
     { name: "Get Quote", href: "/contact" },
-    { name: "Emergency", href: "/emergency" }
+
   ];
 
   return (
@@ -156,12 +156,7 @@ export default function Footer() {
               <Link href="/privacy" className="text-creamy-white/70 hover:text-[#A8B5A2] transition-colors duration-200">
                 Privacy Policy
               </Link>
-              <Link href="/terms" className="text-creamy-white/70 hover:text-[#A8B5A2] transition-colors duration-200">
-                Terms of Service
-              </Link>
-              <Link href="/sitemap" className="text-creamy-white/70 hover:text-[#A8B5A2] transition-colors duration-200">
-                Sitemap
-              </Link>
+              
             </div>
           </div>
         </div>
