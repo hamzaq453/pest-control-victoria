@@ -2,21 +2,18 @@
   "services": [
     {
       "id": 1,
-      "slug": "birds-control",
-      "title": "Birds Control",
-      "shortTitle": "Professional Bird Control Solutions",
-      "description": "Professional bird control solutions for your property.",
-      "longDescription": "Humane and effective bird control services that protect your property from damage and health risks.",
-      "image": "/S1.jpg",
-      "heroImage": "/S1.jpg",
+      "slug": "birds-control-and-proofing",
+      "title": "Birds Control and Proofing",
+      "shortTitle": "Professional Bird Control and Proofing Solutions",
+      "description": "Comprehensive bird control and proofing solutions to protect your property from damage and health hazards caused by bird infestations.",
+      "longDescription": "Humane and effective bird control and proofing services that protect your property from damage and health risks.",
+      "image": "/Bird.png",
+      "heroImage": "/Bird.png",
       "category": "Wildlife Control",
       "features": [
         "Humane Methods",
-        "Property Protection", 
-        "Health Safety",
-        "Long-term Solutions",
-        "Expert Assessment",
-        "Preventive Measures"
+        "Property Protection",
+        "Long-term Solution"
       ],
       "benefits": [
         {
@@ -116,124 +113,6 @@
              "meta": {
          "keywords": "bird control, bird removal, bird deterrents, bird proofing, pest control Victoria, wildlife control",
          "description": "Professional bird control services in Victoria. Humane, effective solutions for bird infestations. Protect your property with expert bird control methods."
-       }
-     },
-     {
-       "id": 2,
-       "slug": "birds-proofing",
-       "title": "Birds Proofing",
-       "shortTitle": "Professional Bird Proofing Solutions",
-       "description": "Comprehensive bird proofing services for your property.",
-       "longDescription": "Professional bird proofing that prevents birds from nesting and roosting on your property.",
-       "image": "/S2.jpg",
-       "heroImage": "/S2.jpg",
-       "category": "Wildlife Control",
-       "features": [
-         "Long-term Protection",
-         "Property Preservation",
-         "Preventive Approach",
-         "Expert Installation",
-         "Durable Materials",
-         "Warranty Coverage"
-       ],
-       "benefits": [
-         {
-           "title": "Property Preservation",
-           "description": "Protect your building's exterior, roof, and gutters from damage caused by bird nesting and droppings.",
-           "icon": "shield"
-         },
-         {
-           "title": "Long-term Solution",
-           "description": "Permanent bird proofing solutions that provide lasting protection without ongoing maintenance.",
-           "icon": "leaf"
-         },
-         {
-           "title": "Cost Effective",
-           "description": "Prevent expensive repairs and cleaning costs associated with bird infestations.",
-           "icon": "heart"
-         }
-       ],
-       "process": [
-         {
-           "step": 1,
-           "title": "Site Assessment",
-           "description": "Thorough inspection to identify vulnerable areas and bird entry points.",
-           "icon": "search"
-         },
-         {
-           "step": 2,
-           "title": "Solution Design",
-           "description": "Custom proofing strategy tailored to your property's specific needs.",
-           "icon": "clipboard"
-         },
-         {
-           "step": 3,
-           "title": "Professional Installation",
-           "description": "Expert installation of bird deterrents and exclusion systems.",
-           "icon": "tools"
-         },
-         {
-           "step": 4,
-           "title": "Quality Assurance",
-           "description": "Testing and verification to ensure complete bird exclusion.",
-           "icon": "eye"
-         }
-       ],
-       "methods": [
-         {
-           "title": "Bird Netting",
-           "description": "High-quality netting systems to block bird access to specific areas.",
-           "image": "/S2.jpg"
-         },
-         {
-           "title": "Spike Systems",
-           "description": "Humane deterrent spikes to prevent birds from landing on surfaces.",
-           "image": "/S3.jpg"
-         },
-         {
-           "title": "Wire Systems",
-           "description": "Discrete wire barriers that discourage birds from perching.",
-           "image": "/S1.jpg"
-         },
-         {
-           "title": "Exclusion Sealing",
-           "description": "Professional sealing of gaps and entry points to prevent access.",
-           "image": "/S2.jpg"
-         }
-       ],
-       "faqs": [
-         {
-           "question": "How long does bird proofing last?",
-           "answer": "Our bird proofing solutions are designed to last 10+ years with minimal maintenance required."
-         },
-         {
-           "question": "Is bird proofing humane?",
-           "answer": "Yes, all our methods are humane and designed to deter birds without causing harm."
-         },
-         {
-           "question": "Can you proof any type of building?",
-           "answer": "We provide bird proofing solutions for residential, commercial, and industrial buildings."
-         },
-         {
-           "question": "Do you offer maintenance services?",
-           "answer": "Yes, we provide ongoing maintenance and inspection services to ensure long-term effectiveness."
-         }
-       ],
-       "pricing": {
-         "startingPrice": "$399",
-         "description": "Professional bird proofing services starting from $399. Pricing depends on property size and complexity.",
-         "included": [
-           "Site assessment and consultation",
-           "Custom proofing design",
-           "Professional installation",
-           "Quality testing",
-           "Warranty coverage"
-         ]
-       },
-       "relatedServices": [1, 10, 11, 12],
-       "meta": {
-         "keywords": "bird proofing, bird deterrents, bird exclusion, pest control Victoria, wildlife control",
-         "description": "Professional bird proofing services in Victoria. Prevent bird infestations with expert exclusion and deterrent systems."
        }
      },
      {
@@ -2476,6 +2355,214 @@
        "meta": {
          "keywords": "mole control, mole elimination, wildlife control, pest control Victoria, garden protection",
          "description": "Professional mole control services in Victoria. Protect your garden and lawn with expert mole control."
+       }
+     },
+     {
+       "id": 22,
+       "slug": "mice-and-rats",
+       "title": "Mice and Rats",
+       "shortTitle": "Complete Rodent Control Services",
+       "description": "Complete rodent control services for both mice and rats, ensuring your property remains pest-free.",
+       "longDescription": "Professional rodent control services that eliminate both mice and rat infestations using proven methods and preventive measures.",
+       "image": "/mice.png",
+       "heroImage": "/mice.png",
+       "category": "Rodent Control",
+       "features": [
+         "Dual Control",
+         "Complete Elimination",
+         "Prevention",
+         "Safe Solutions",
+         "Expert Assessment",
+         "Long-term Protection"
+       ],
+       "benefits": [
+         {
+           "title": "Complete Rodent Control",
+           "description": "Comprehensive solutions that target both mice and rats, ensuring complete elimination of all rodent problems.",
+           "icon": "shield"
+         },
+         {
+           "title": "Preventive Measures",
+           "description": "Long-term prevention strategies to keep rodents from returning to your property.",
+           "icon": "lock"
+         },
+         {
+           "title": "Safe & Effective",
+           "description": "Professional methods that are safe for your family and pets while effectively eliminating rodents.",
+           "icon": "heart"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Inspection",
+           "description": "Thorough inspection to identify rodent species, entry points, and infestation levels.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Treatment Plan",
+           "description": "Develop comprehensive treatment strategy for both mice and rats.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Implementation",
+           "description": "Professional application of rodent control methods and exclusion techniques.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Prevention",
+           "description": "Install preventive measures and provide ongoing monitoring services.",
+           "icon": "shield"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Baiting Systems",
+           "description": "Strategic placement of rodent baits to eliminate existing populations."
+         },
+         {
+           "title": "Exclusion Methods",
+           "description": "Sealing entry points and installing barriers to prevent rodent access."
+         },
+         {
+           "title": "Trapping",
+           "description": "Humane trapping methods for immediate rodent removal."
+         },
+         {
+           "title": "Monitoring",
+           "description": "Ongoing monitoring to ensure long-term rodent control success."
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How long does rodent control take?",
+           "answer": "Most rodent control programs show results within 1-2 weeks, with complete elimination typically achieved within 2-4 weeks."
+         },
+         {
+           "question": "Are your methods safe for pets?",
+           "answer": "Yes, we use pet-safe methods and provide specific instructions to protect your pets during treatment."
+         },
+         {
+           "question": "Do you provide prevention services?",
+           "answer": "Yes, we include preventive measures and ongoing monitoring to prevent future rodent problems."
+         }
+       ],
+       "pricing": {
+         "starting": "From $150",
+         "description": "Pricing varies based on property size, infestation level, and required services."
+       },
+       "relatedServices": ["ant-control", "cockroach-control", "spider-control"],
+       "meta": {
+         "title": "Mice and Rats Control Services | Pest Control Victoria",
+         "description": "Professional mice and rats control services. Complete rodent elimination and prevention solutions for your property.",
+         "keywords": "mice control, rats control, rodent control, pest control, Victoria"
+       }
+     },
+     {
+       "id": 23,
+       "slug": "general-pest-control",
+       "title": "General Pest Control",
+       "shortTitle": "Comprehensive Pest Control Services",
+       "description": "All-encompassing pest control services covering a wide range of common household and commercial pests.",
+       "longDescription": "Professional pest control services that address multiple pest problems with comprehensive solutions for residential and commercial properties.",
+       "image": "/S2.jpg",
+       "heroImage": "/S2.jpg",
+       "category": "General",
+       "features": [
+         "Wide Coverage",
+         "Versatile Solutions",
+         "Cost-effective",
+         "Comprehensive Service",
+         "Expert Knowledge",
+         "Preventive Approach"
+       ],
+       "benefits": [
+         {
+           "title": "Comprehensive Coverage",
+           "description": "Address multiple pest problems with a single service, covering a wide range of common pests.",
+           "icon": "shield"
+         },
+         {
+           "title": "Cost Effective",
+           "description": "More economical than individual pest treatments, providing better value for comprehensive pest control.",
+           "icon": "dollar"
+         },
+         {
+           "title": "Convenient Service",
+           "description": "One service call to address multiple pest issues, saving you time and hassle.",
+           "icon": "clock"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Assessment",
+           "description": "Comprehensive inspection to identify all pest problems and their sources.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Treatment Plan",
+           "description": "Develop integrated pest management strategy for all identified pest issues.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Implementation",
+           "description": "Professional application of multiple treatment methods for comprehensive control.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Monitoring",
+           "description": "Ongoing monitoring and maintenance to ensure long-term pest control success.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Integrated Pest Management",
+           "description": "Comprehensive approach combining multiple treatment methods for effective control."
+         },
+         {
+           "title": "Preventive Measures",
+           "description": "Proactive strategies to prevent future pest problems and infestations."
+         },
+         {
+           "title": "Regular Maintenance",
+           "description": "Scheduled follow-up services to maintain pest-free conditions."
+         },
+         {
+           "title": "Customized Solutions",
+           "description": "Tailored treatment plans based on your specific pest control needs."
+         }
+       ],
+       "faqs": [
+         {
+           "question": "What pests are covered in general pest control?",
+           "answer": "General pest control covers common household pests including ants, cockroaches, spiders, silverfish, and other crawling insects."
+         },
+         {
+           "question": "How often should I schedule general pest control?",
+           "answer": "We recommend quarterly treatments for optimal pest control, with additional services as needed."
+         },
+         {
+           "question": "Is general pest control safe for my family?",
+           "answer": "Yes, we use safe, professional-grade products and follow strict safety protocols to protect your family and pets."
+         }
+       ],
+       "pricing": {
+         "starting": "From $120",
+         "description": "Pricing varies based on property size, pest types, and service frequency."
+       },
+       "relatedServices": ["residential-pest-management", "commercial-pest-management-solution", "ant-control"],
+       "meta": {
+         "title": "General Pest Control Services | Pest Control Victoria",
+         "description": "Comprehensive general pest control services for residential and commercial properties. Wide coverage, cost-effective solutions.",
+         "keywords": "general pest control, comprehensive pest control, residential pest control, commercial pest control, Victoria"
        }
      }
    ]

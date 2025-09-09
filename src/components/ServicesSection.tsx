@@ -4,27 +4,30 @@ import Image from "next/image";
 export default function ServicesSection() {
   const featuredServices = [
     {
-      id: 1,
-      title: "Residential Pest Management",
-      description: "Comprehensive pest control solutions for your home, protecting your family and property from unwanted pests.",
-      image: "/residential.png",
-      features: ["Licensed & Insured", "Eco-Friendly Solutions", "Guaranteed Results"],
-      color: "from-[#A8B5A2] to-[#6B9071]"
-    },
-    {
-      id: 2,
-      title: "Commercial Pest Management",
-      description: "Professional pest management solutions for businesses, ensuring compliance and maintaining your reputation.",
-      image: "/commercial.png",
-      features: ["24/7 Support", "Compliance Certified", "Minimal Disruption"],
+      id: 23,
+      slug: "general-pest-control",
+      title: "General Pest Control",
+      description: "All-encompassing pest control services covering a wide range of common household and commercial pests.",
+      image: "/S2.jpg",
+      features: ["Wide Coverage", "Versatile Solutions", "Cost-effective"],
       color: "from-[#6B9071] to-[#2E3A24]"
     },
     {
+      id: 22,
+      slug: "mice-and-rats",
+      title: "Mice and Rats",
+      description: "Complete rodent control services for both mice and rats, ensuring your property remains pest-free.",
+      image: "/mice.png",
+      features: ["Dual Control", "Complete Elimination", "Prevention"],
+      color: "from-[#A8B5A2] to-[#6B9071]"
+    },
+    {
       id: 3,
-      title: "Emergency Pest Control",
-      description: "Same-day emergency services for urgent pest infestations that require immediate attention.",
-      image: "/emergency.jpg",
-      features: ["Same Day Service", "24/7 Response", "Emergency Hotline"],
+      slug: "bees-infestation",
+      title: "Bees Infestation",
+      description: "Safe and effective bee removal services, prioritizing both human safety and bee conservation.",
+      image: "/bees.jpg",
+      features: ["Bee Conservation", "Safe Removal", "Expert Handling"],
       color: "from-[#2E3A24] to-[#1A2314]"
     }
   ];
@@ -83,7 +86,7 @@ export default function ServicesSection() {
 
                 {/* CTA Button */}
                 <Link
-                  href={`/services/${service.id}`}
+                  href={`/services/${service.slug}`}
                   className="inline-flex items-center justify-center w-full text-creamy-white bg-dark-charcoal px-6 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg group-hover:from-[#6B9071] group-hover:to-[#2E3A24] mt-auto"
                 >
                   Learn More
