@@ -13,27 +13,23 @@ export default function ContactPage() {
 
   const services = [
     'Select a Service',
-    'Birds Control',
-    'Birds Proofing',
+    'Birds Control and Proofing',
     'Bees Infestation',
     'Flea and Fleas Pest Control',
     'Moth Treatment',
     'Housefly Control',
-    'Possum Removal',
-    'Rat Control',
-    'Mouse Control',
-    'Spider Control',
     'Ant Control',
-    'Termite Control',
     'Cockroach Control',
-    'Silverfish Control',
-    'Bed Bug Control',
-    'Wasp Control',
-    'Snake Removal',
-    'Carpet Beetle Control',
-    'Clothes Moth Control',
-    'Pigeon Control',
-    'Mole Control'
+    'Dead Animal Removal',
+    'Possum Control and Removal',
+    'Mice and Rats',
+    'Bedbug Extermination',
+    'Residential Pest Management',
+    'Commercial Pest Management Solution',
+    'General Pest Control',
+    'Spider Control',
+    'Same Day Emergency Services',
+    'Wasp Control'
   ];
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -365,70 +361,68 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Features Grid */}
+              {/* Trust Stats Grid */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="bg-white rounded-2xl p-6 shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                  <div className="w-12 h-12 bg-gradient-to-br from-[#A8B5A2] to-[#6B9071] rounded-xl flex items-center justify-center mb-4">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-[#2E3A24] mb-2">50,000+</div>
+                    <h4 className="text-lg font-bold text-[#2E3A24] mb-2">Jobs Completed</h4>
+                    <p className="text-[#2E3A24]/70 text-sm">Proven track record</p>
                   </div>
-                  <h4 className="text-lg font-bold text-[#2E3A24] mb-2">Free Quote</h4>
-                  <p className="text-[#2E3A24]/70 text-sm">No hidden fees, transparent pricing</p>
                 </div>
 
                 <div className="bg-white rounded-2xl p-6 shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                  <div className="w-12 h-12 bg-gradient-to-br from-[#6B9071] to-[#2E3A24] rounded-xl flex items-center justify-center mb-4">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-[#2E3A24] mb-2">98%</div>
+                    <h4 className="text-lg font-bold text-[#2E3A24] mb-2">Success Rate</h4>
+                    <p className="text-[#2E3A24]/70 text-sm">Guaranteed results</p>
                   </div>
-                  <h4 className="text-lg font-bold text-[#2E3A24] mb-2">Same Day Service</h4>
-                  <p className="text-[#2E3A24]/70 text-sm">Quick response for urgent needs</p>
                 </div>
 
                 <div className="bg-white rounded-2xl p-6 shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                  <div className="w-12 h-12 bg-gradient-to-br from-[#2E3A24] to-[#6B9071] rounded-xl flex items-center justify-center mb-4">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                    </svg>
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-[#2E3A24] mb-2">Full Warranty</div>
+                    <h4 className="text-lg font-bold text-[#2E3A24] mb-2">Included</h4>
+                    <p className="text-[#2E3A24]/70 text-sm">Free revisit</p>
                   </div>
-                  <h4 className="text-lg font-bold text-[#2E3A24] mb-2">Eco-Friendly</h4>
-                  <p className="text-[#2E3A24]/70 text-sm">Safe for your family and pets</p>
                 </div>
 
                 <div className="bg-white rounded-2xl p-6 shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                  <div className="w-12 h-12 bg-gradient-to-br from-[#A8B5A2] to-[#2E3A24] rounded-xl flex items-center justify-center mb-4">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                    </svg>
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-[#2E3A24] mb-2">Free</div>
+                    <h4 className="text-lg font-bold text-[#2E3A24] mb-2">Quote & Follow-up</h4>
+                    <p className="text-[#2E3A24]/70 text-sm">No hidden costs</p>
                   </div>
-                  <h4 className="text-lg font-bold text-[#2E3A24] mb-2">Guaranteed Results</h4>
-                  <p className="text-[#2E3A24]/70 text-sm">100% satisfaction guaranteed</p>
                 </div>
               </div>
 
-              {/* Trust Indicators */}
+              {/* Key Benefits */}
               <div className="bg-white rounded-2xl p-6 shadow-lg border border-white/20">
-                <h4 className="text-lg font-bold text-[#2E3A24] mb-4 text-center">Why Choose Us?</h4>
+                <h4 className="text-lg font-bold text-[#2E3A24] mb-4 text-center">Our Promise</h4>
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <div className="w-6 h-6 bg-[#A8B5A2] rounded-full flex items-center justify-center">
                       <span className="text-[#2E3A24] text-sm font-bold">✓</span>
                     </div>
-                    <span className="text-[#2E3A24]/80 text-sm">Licensed & Insured Professionals</span>
+                    <span className="text-[#2E3A24]/80 text-sm">Pet & Environment Friendly</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-6 h-6 bg-[#6B9071] rounded-full flex items-center justify-center">
                       <span className="text-white text-sm font-bold">✓</span>
                     </div>
-                    <span className="text-[#2E3A24]/80 text-sm">15+ Years of Experience</span>
+                    <span className="text-[#2E3A24]/80 text-sm">Residential & Commercial Treatment</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-6 h-6 bg-[#2E3A24] rounded-full flex items-center justify-center">
                       <span className="text-[#F7F3E9] text-sm font-bold">✓</span>
                     </div>
-                    <span className="text-[#2E3A24]/80 text-sm">500+ Happy Customers</span>
+                    <span className="text-[#2E3A24]/80 text-sm">Free Revisit During Warranty</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <div className="w-6 h-6 bg-[#A8B5A2] rounded-full flex items-center justify-center">
+                      <span className="text-[#2E3A24] text-sm font-bold">✓</span>
+                    </div>
+                    <span className="text-[#2E3A24]/80 text-sm">Licensed & Insured Professionals</span>
                   </div>
                 </div>
               </div>
