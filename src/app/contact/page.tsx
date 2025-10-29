@@ -7,12 +7,12 @@ export default function ContactPage() {
     name: '',
     email: '',
     phone: '',
-    service: '',
+    service: 'Free Quotation',
     message: ''
   });
 
   const services = [
-    'Select a Service',
+    'Free Quotation',
     'Birds Control and Proofing',
     'Bees Infestation',
     'Flea and Fleas Pest Control',
@@ -48,7 +48,7 @@ export default function ContactPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
-    if (formData.service === '' || formData.service === 'Select a Service') {
+    if (formData.service === '') {
       setSubmitStatus({
         type: 'error',
         message: 'Please select a service'
@@ -80,7 +80,7 @@ export default function ContactPage() {
           name: '',
           email: '',
           phone: '',
-          service: '',
+          service: 'Free Quotation',
           message: ''
         });
       } else {
@@ -258,7 +258,7 @@ export default function ContactPage() {
                         className="w-full px-6 py-4 border-2 border-[#A8B5A2]/30 rounded-xl focus:ring-4 focus:ring-[#6B9071]/20 focus:border-[#6B9071] outline-none transition-all duration-300 bg-white/80 backdrop-blur-sm text-[#2E3A24] group-hover:border-[#6B9071]/50 appearance-none"
                       >
                         {services.map((service, index) => (
-                          <option key={index} value={service === 'Select a Service' ? '' : service}>
+                          <option key={index} value={service}>
                             {service}
                           </option>
                         ))}
@@ -365,12 +365,19 @@ export default function ContactPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="bg-white rounded-2xl p-6 shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                   <div className="text-center">
+                    <div className="text-3xl font-bold text-[#2E3A24] mb-2">Free</div>
+                    <h4 className="text-lg font-bold text-[#2E3A24] mb-2">Quote & Inspection</h4>
+                    <p className="text-[#2E3A24]/70 text-sm">No hidden costs</p>
+                  </div>
+                </div>
+
+                <div className="bg-white rounded-2xl p-6 shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                  <div className="text-center">
                     <div className="text-3xl font-bold text-[#2E3A24] mb-2">50,000+</div>
                     <h4 className="text-lg font-bold text-[#2E3A24] mb-2">Jobs Completed</h4>
                     <p className="text-[#2E3A24]/70 text-sm">Proven track record</p>
                   </div>
                 </div>
-
                 <div className="bg-white rounded-2xl p-6 shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-[#2E3A24] mb-2">98%</div>
@@ -382,18 +389,11 @@ export default function ContactPage() {
                 <div className="bg-white rounded-2xl p-6 shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-[#2E3A24] mb-2">Full Warranty</div>
-                    <h4 className="text-lg font-bold text-[#2E3A24] mb-2">Included</h4>
-                    <p className="text-[#2E3A24]/70 text-sm">Free revisit</p>
+                    <h4 className="text-lg font-bold text-[#2E3A24] mb-2">and Follow-up Treatment</h4>
+                    <p className="text-[#2E3A24]/70 text-sm">Included</p>
                   </div>
                 </div>
 
-                <div className="bg-white rounded-2xl p-6 shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-[#2E3A24] mb-2">Free</div>
-                    <h4 className="text-lg font-bold text-[#2E3A24] mb-2">Quote & Follow-up</h4>
-                    <p className="text-[#2E3A24]/70 text-sm">No hidden costs</p>
-                  </div>
-                </div>
               </div>
 
               {/* Key Benefits */}
