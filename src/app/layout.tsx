@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import VerticalCallButton from "@/components/VerticalCallButton";
+import DiscountBanner from "@/components/DiscountBanner";
 
 
 const geistSans = Geist({
@@ -33,6 +34,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <DiscountBanner />
         <Navbar />
         {children}
         <Footer />
