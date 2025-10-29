@@ -477,10 +477,10 @@ export default function ContactPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#2E3A24] mb-4">Business Hours</h3>
-              <p className="text-[#2E3A24]/70 mb-4">Regular office hours</p>
-              <div className="text-lg font-semibold text-[#6B9071]">Mon-Fri: 8AM-6PM</div>
-              <p className="text-sm text-[#2E3A24]/60">Sat: 9AM-4PM</p>
+              <h3 className="text-xl font-bold text-[#2E3A24] mb-4">24/7 Availability</h3>
+              <p className="text-[#2E3A24]/70 mb-4">Emergency pest control services</p>
+              <div className="text-lg font-semibold text-[#6B9071]">Always Available</div>
+              <p className="text-sm text-[#2E3A24]/60">Round the clock service</p>
             </div>
           </div>
         </div>
