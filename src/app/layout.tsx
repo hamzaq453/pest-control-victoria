@@ -36,7 +36,9 @@ export default function RootLayout({
       >
         <DiscountBanner />
         <Navbar />
-        {children}
+        <div className="">
+          {children}
+        </div>
         <Footer />
         <WhatsAppButton />
         <VerticalCallButton />
