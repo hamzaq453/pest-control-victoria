@@ -82,8 +82,8 @@ export default function AboutPage() {
                   <div className="text-sm text-[#2E3A24]/70">Company Founded</div>
                 </div>
                 <div className="text-center p-4 bg-[#F7F3E9] rounded-xl">
-                  <div className="text-3xl font-bold text-[#6B9071] mb-2">500+</div>
-                  <div className="text-sm text-[#2E3A24]/70">Happy Customers</div>
+                  <div className="text-3xl font-bold text-[#6B9071] mb-2">10,000+</div>
+                  <div className="text-sm text-[#2E3A24]/70">Clients</div>
                 </div>
                 <div className="text-center p-4 bg-[#F7F3E9] rounded-xl">
                   <div className="text-3xl font-bold text-[#6B9071] mb-2">15+</div>

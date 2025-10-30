@@ -35,8 +35,8 @@ export default function AboutSection() {
                   <div className="text-xs sm:text-sm text-[#2E3A24]/70">Years Experience</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl sm:text-3xl font-bold text-[#6B9071] mb-2">500+</div>
-                  <div className="text-xs sm:text-sm text-[#2E3A24]/70">Happy Customers</div>
+                  <div className="text-2xl sm:text-3xl font-bold text-[#6B9071] mb-2">10,000+</div>
+                  <div className="text-xs sm:text-sm text-[#2E3A24]/70">Clients</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl sm:text-3xl font-bold text-[#6B9071] mb-2">24/7</div>
