@@ -145,18 +145,25 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-[#6B9071]/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+          <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-4">
             {/* Copyright */}
-            <div className="text-sm text-creamy-white/70">
+            <div className="text-sm text-creamy-white/70 md:justify-self-start text-center md:text-left">
               © {currentYear} Pest Free Victoria. All rights reserved.
             </div>
-            
-            {/* Legal Links */}
-            <div className="flex space-x-6 text-sm">
+
+            {/* Center: Powered by DevHexa */}
+            <div className="text-sm text-creamy-white/70 text-center">
+              Powered by {""}
+              <Link href="https://devhexa.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#A8B5A2]">
+                DevHexa
+              </Link>
+            </div>
+
+            {/* Right: Legal Links */}
+            <div className="flex space-x-6 text-sm justify-center md:justify-end md:justify-self-end">
               <Link href="/privacy" className="text-creamy-white/70 hover:text-[#A8B5A2] transition-colors duration-200">
                 Privacy Policy
               </Link>
-              
             </div>
           </div>
         </div>
