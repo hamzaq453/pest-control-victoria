@@ -113,14 +113,14 @@ export default function Footer() {
             <h4 className="text-lg font-semibold text-[#A8B5A2]">Contact Info</h4>
             
             <div className="space-y-4">
-              <div>
+              {/* <div>
                 <h5 className="font-medium text-[#A8B5A2] mb-2">Business Hours</h5>
                 <div className="space-y-1 text-sm text-creamy-white/80">
                   <div>Monday - Friday: 8:00 AM - 6:00 PM</div>
                   <div>Saturday: 9:00 AM - 4:00 PM</div>
                   <div>Sunday: Emergency Only</div>
                 </div>
-              </div>
+              </div> */}
               
               <div>
                 <h5 className="font-medium text-[#A8B5A2] mb-2">Emergency Service</h5>
