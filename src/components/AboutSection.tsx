@@ -115,12 +115,15 @@ export default function AboutSection() {
               </div>
 
               <div className="pt-4">
-                <div className="inline-flex items-center space-x-2 bg-[#2E3A24] text-[#F7F3E9] px-4 sm:px-6 py-2 sm:py-3 rounded-xl text-sm sm:text-base">
+                <a
+                  href="#contact"
+                  className="inline-flex items-center space-x-2 bg-[#2E3A24] hover:bg-[#6B9071] transition-colors duration-200 text-[#F7F3E9] px-4 sm:px-6 py-2 sm:py-3 rounded-xl text-sm sm:text-base font-semibold shadow-md focus:outline-none focus:ring focus:ring-[#6B9071]/40"
+                >
                   <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 10.5V7a2 2 0 00-2-2h-3.586a1 1 0 01-.707-.293l-2.121-2.121A1 1 0 0011.172 2H7a2 2 0 00-2 2v3.5m16 5v4a2 2 0 01-2 2h-5.586a1 1 0 00-.707.293l-2.121 2.121A1 1 0 019.828 22H7a2 2 0 01-2-2v-3.5" />
                   </svg>
-                  <span className="font-semibold">Serving Victoria Since 2009</span>
-                </div>
+                  <span>Get Your Free Quote Now</span>
+                </a>
               </div>
             </div>
           </div>
