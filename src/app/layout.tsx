@@ -30,6 +30,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Google Ads conversion tag ID - can be overridden with NEXT_PUBLIC_GOOGLE_TAG_ID env variable
   const googleTagId = process.env.NEXT_PUBLIC_GOOGLE_TAG_ID;
 
   return (
@@ -37,32 +38,28 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* Google Tag */}
-        {googleTagId && (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${googleTagId}`}
-              strategy="afterInteractive"
-            />
-            <Script id="google-analytics" strategy="afterInteractive">
-              {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${googleTagId}');
-              `}
-            </Script>
-            {/* Google Tag (noscript) */}
-            <noscript>
-              <iframe
-                src={`https://www.googletagmanager.com/ns.html?id=${googleTagId}`}
-                height="0"
-                width="0"
-                style={{ display: "none", visibility: "hidden" }}
-              />
-            </noscript>
-          </>
-        )}
+        {/* Google Tag (gtag.js) */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${googleTagId}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${googleTagId}');
+          `}
+        </Script>
+        {/* Google Tag (noscript) */}
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${googleTagId}`}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
         <DiscountBanner />
         <Navbar />
         <div className="">
