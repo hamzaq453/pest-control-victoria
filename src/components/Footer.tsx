@@ -90,7 +90,7 @@ export default function Footer() {
             <div className="space-y-3 md:space-y-6">
               <h4 className="text-base md:text-lg font-semibold text-[#A8B5A2]">Our Services</h4>
               <ul className="space-y-2 md:space-y-3">
-                {services.map((service, index) => (
+                {services.slice(0, -1).map((service, index) => (
                   <li key={`${service.name}-${index}`}>
                     <Link 
                       href={service.slug.startsWith('/') ? service.slug : `/services/${service.slug}`}
@@ -100,6 +100,14 @@ export default function Footer() {
                     </Link>
                   </li>
                 ))}
+                <li>
+                  <Link 
+                    href="/services"
+                    className="text-creamy-white/80 hover:text-[#A8B5A2] transition-colors duration-200 text-sm"
+                  >
+                    View All Services
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
