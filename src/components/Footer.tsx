@@ -31,11 +31,11 @@ export default function Footer() {
           <div className="space-y-3 md:space-y-4 lg:space-y-6">
             <div className="flex items-start md:items-center">
               <Image
-                src="/Logo-footer.png"
+                src="/Logo-footer1.png"
                 alt="Pest Free Victoria Logo"
                 width={200}
                 height={200}
-                className="object-contain w-28 h-auto sm:w-32 md:w-36 lg:w-40"
+                className="object-contain w-[135px] h-auto sm:w-32 md:w-36 lg:w-40"
               />
             </div>
             
