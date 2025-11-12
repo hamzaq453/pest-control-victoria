@@ -61,7 +61,7 @@ export default function Navbar() {
                 alt="Pest Free Victoria Logo"
                 width={220}
                 height={220}
-                className="object-contain h-[58px] w-auto sm:h-[58px] md:h-[67px]"
+                className="object-contain h-[64px] w-auto sm:h-[64px] md:h-[77px]"
                 priority
               />
             </Link>
