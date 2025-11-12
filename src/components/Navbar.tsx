@@ -18,16 +18,16 @@ export default function Navbar() {
   return (
     <nav className="bg-creamy-white shadow-md sticky top-[44px] sm:top-[42px] md:top-[42px] z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-14 md:h-16">
+        <div className="flex justify-between items-center min-h-[56px] md:h-16 py-1 md:py-0">
           {/* Logo */}
-          <div className="flex-shrink-0 flex items-center min-w-0 pr-2 md:pr-0">
-            <Link href="/" className="flex items-center min-w-0">
+          <div className="flex-shrink-0 flex items-center justify-center min-w-0 pr-2 md:pr-0">
+            <Link href="/" className="flex items-center justify-center min-w-0">
               <Image
                 src="/Logo-no-bg.png"
                 alt="Pest Free Victoria Logo"
                 width={220}
                 height={220}
-                className="object-contain h-10 w-auto sm:h-12 md:h-16 max-w-full"
+                className="object-contain h-12 w-auto sm:h-14 md:h-16 max-w-full"
                 priority
               />
             </Link>
