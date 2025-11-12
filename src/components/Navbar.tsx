@@ -17,19 +17,19 @@ export default function Navbar() {
 
   return (
     <nav className="bg-creamy-white shadow-md sticky top-[50px] z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 p-2">
-        <div className="flex justify-between items-center h-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-14 md:h-16">
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center space-x-2">
+          <div className="flex-shrink-0 flex items-center">
+            <Link href="/" className="flex items-center">
               <Image
                 src="/Logo-no-bg.png"
                 alt="Pest Free Victoria Logo"
                 width={220}
                 height={220}
-                className="object-contain"
+                className="object-contain h-16 w-auto sm:h-20 md:h-24"
+                priority
               />
-        
             </Link>
           </div>
 
@@ -59,16 +59,19 @@ export default function Navbar() {
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-dark-charcoal hover:text-deep-forest focus:outline-none focus:text-deep-forest"
+              className="text-dark-charcoal hover:text-deep-forest focus:outline-none focus:text-deep-forest p-2 -mr-2"
+              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+              aria-expanded={isMenuOpen}
             >
               <svg
                 className="h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
+                aria-hidden="true"
               >
                 {isMenuOpen ? (
                   <path
