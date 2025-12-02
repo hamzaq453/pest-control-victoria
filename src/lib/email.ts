@@ -1,11 +1,17 @@
 import nodemailer from 'nodemailer';
 
-// Create transporter configuration
+// Create transporter configuration for Hostinger email
 const transporter = nodemailer.createTransport({
-  service: 'gmail',
+  host: process.env.SMTP_HOST || 'smtp.hostinger.com',
+  port: parseInt(process.env.SMTP_PORT || '465'),
+  secure: true, // true for port 465 (SSL), false for other ports
   auth: {
-    user: 'qhamza4532@gmail.com',
-    pass: 'znyy rdll hila fkcr' // Gmail App Password
+    user: process.env.SMTP_USER || 'info@pestfreevictoria.com',
+    pass: process.env.SMTP_PASSWORD || '', // Your Hostinger mailbox password
+  },
+  tls: {
+    // Do not fail on invalid certs
+    rejectUnauthorized: false
   }
 });
 
@@ -21,9 +27,9 @@ export const sendContactEmail = async (formData: {
 
   // Email to customer (confirmation)
   const customerMailOptions = {
-    from: 'qhamza4532@gmail.com',
+    from: `"Pest Free Victoria" <${process.env.SMTP_USER || 'info@pestfreevictoria.com'}>`,
     to: email,
-    subject: 'Thank you for contacting Pest Control Victoria',
+    subject: 'Thank you for contacting Pest Free Victoria',
     html: `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
         <h2 style="color: #2E5D3A;">Thank you for contacting us!</h2>
@@ -47,8 +53,9 @@ export const sendContactEmail = async (formData: {
 
   // Email to admin (notification)
   const adminMailOptions = {
-    from: 'qhamza4532@gmail.com',
-    to: 'qhamza4532@gmail.com', // Your email for notifications
+    from: `"Pest Free Victoria Contact Form" <${process.env.SMTP_USER || 'info@pestfreevictoria.com'}>`,
+    to: process.env.SMTP_USER || 'info@pestfreevictoria.com', // Your business email for notifications
+    replyTo: email, // So you can reply directly to the customer
     subject: `New Contact Form Submission - ${service}`,
     html: `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
