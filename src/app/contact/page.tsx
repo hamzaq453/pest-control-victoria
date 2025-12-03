@@ -101,45 +101,8 @@ export default function ContactPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-[#4A7C59] via-[#2E5D3A] to-[#1A3D1F] overflow-hidden">
-        {/* Background Grid Pattern */}
-        <div className="absolute inset-0 opacity-15">
-          <div className="absolute inset-0" style={{
-            backgroundImage: `
-              linear-gradient(to right, #FFFFFF 1px, transparent 1px),
-              linear-gradient(to bottom, #FFFFFF 1px, transparent 1px)
-            `,
-            backgroundSize: '60px 60px'
-          }}></div>
-        </div>
-        
-        {/* Floating Geometric Shapes */}
-        <div className="absolute inset-0">
-          <div className="absolute top-20 left-10 w-32 h-32 bg-gradient-to-br from-[#7FB069]/30 to-[#A8D5BA]/30 rounded-full blur-xl"></div>
-          <div className="absolute bottom-20 right-10 w-24 h-24 bg-gradient-to-br from-[#FFFFFF]/20 to-[#7FB069]/20 rounded-full blur-lg"></div>
-          <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-gradient-to-br from-[#A8D5BA]/25 to-[#F7F3E9]/40 rounded-full blur-md"></div>
-          <div className="absolute top-1/3 right-1/4 w-20 h-20 bg-gradient-to-br from-[#7FB069]/20 to-[#FFFFFF]/15 rounded-full blur-lg"></div>
-        </div>
-
-        {/* Subtle Radial Gradient Overlay */}
-        <div className="absolute inset-0 bg-radial-gradient from-transparent via-transparent to-[#1A3D1F]/40"></div>
-
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">
-              Contact <span className="text-[#A8D5BA]">Pest Free Victoria</span>
-            </h1>
-            <p className="text-xl text-white/95 max-w-3xl mx-auto leading-relaxed drop-shadow-md">
-              Ready to solve your pest problem? Get in touch with our expert team for a free quote 
-              and professional pest control solutions across Victoria.
-            </p>
-          </div>
-        </div>
-      </section>
-
-             {/* Contact Form Section */}
-       <section id="contact-form" className="relative py-20 bg-gradient-to-br from-[#F7F3E9] via-white to-[#F7F3E9] overflow-hidden">
+      {/* Contact Form Section */}
+      <section id="contact-form" className="relative py-12 md:py-16 lg:py-20 bg-gradient-to-br from-[#F7F3E9] via-white to-[#F7F3E9] overflow-hidden">
         {/* Background Elements */}
         <div className="absolute inset-0">
           <div className="absolute top-20 left-10 w-32 h-32 bg-[#A8B5A2]/20 rounded-full blur-xl"></div>
@@ -149,43 +112,43 @@ export default function ContactPage() {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           {/* Section Header */}
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-[#2E3A24] text-[#F7F3E9] px-6 py-2 rounded-full text-sm font-medium mb-6">
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="text-center mb-8 md:mb-12 lg:mb-16">
+            <div className="inline-flex items-center space-x-2 bg-[#2E3A24] text-[#F7F3E9] px-4 py-1.5 md:px-6 md:py-2 rounded-full text-xs md:text-sm font-medium mb-4 md:mb-6">
+              <svg className="w-3 h-3 md:w-4 md:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
               <span>Get Your Free Quote</span>
             </div>
-            <h2 className="text-4xl md:text-6xl font-bold text-[#2E3A24] mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold text-[#2E3A24] mb-4 md:mb-6">
               Ready to <span className="text-[#6B9071] relative">
                 Solve
                 <div className="absolute -bottom-2 left-0 w-full h-2 bg-[#A8B5A2]/40 rounded-full"></div>
               </span> Your Pest Problem?
             </h2>
-            <p className="text-xl text-[#2E3A24]/80 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-base md:text-lg lg:text-xl text-[#2E3A24]/80 max-w-3xl mx-auto leading-relaxed px-4">
               Don't let pests take over your space. Our expert team is ready to provide you with a customized solution and free quote.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-12 items-start">
             {/* Contact Form */}
             <div className="relative">
-              <div className="bg-white rounded-3xl p-8 shadow-2xl border border-white/20 backdrop-blur-sm">
+              <div className="bg-white rounded-2xl md:rounded-3xl p-6 md:p-8 shadow-2xl border border-white/20 backdrop-blur-sm">
                 {/* Form Header */}
-                <div className="text-center mb-8">
-                  <div className="w-16 h-16 bg-gradient-to-br from-[#6B9071] to-[#2E3A24] rounded-2xl flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="text-center mb-6 md:mb-8">
+                  <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-[#6B9071] to-[#2E3A24] rounded-xl md:rounded-2xl flex items-center justify-center mx-auto mb-3 md:mb-4">
+                    <svg className="w-6 h-6 md:w-8 md:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                     </svg>
                   </div>
-                  <h3 className="text-2xl font-bold text-[#2E3A24] mb-2">Get Started Today</h3>
-                  <p className="text-[#2E3A24]/70">Fill out the form below and we'll get back to you within 24 hours</p>
+                  <h3 className="text-xl md:text-2xl font-bold text-[#2E3A24] mb-2">Get Started Today</h3>
+                  <p className="text-sm md:text-base text-[#2E3A24]/70">Fill out the form below and we'll get back to you within 24 hours</p>
                 </div>
 
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
                   {/* Name Field */}
                   <div className="group">
-                    <label htmlFor="name" className="block text-sm font-semibold text-[#2E3A24] mb-3 group-hover:text-[#6B9071] transition-colors duration-200">
+                    <label htmlFor="name" className="block text-sm font-semibold text-[#2E3A24] mb-2 md:mb-3 group-hover:text-[#6B9071] transition-colors duration-200">
                       Full Name *
                     </label>
                     <div className="relative">
@@ -196,7 +159,7 @@ export default function ContactPage() {
                         value={formData.name}
                         onChange={handleChange}
                         required
-                        className="w-full px-6 py-4 border-2 border-[#A8B5A2]/30 rounded-xl focus:ring-4 focus:ring-[#6B9071]/20 focus:border-[#6B9071] outline-none transition-all duration-300 bg-white/80 backdrop-blur-sm text-[#2E3A24] placeholder-[#2E3A24]/50 group-hover:border-[#6B9071]/50"
+                        className="w-full px-4 md:px-6 py-3 md:py-4 border-2 border-[#A8B5A2]/30 rounded-xl focus:ring-4 focus:ring-[#6B9071]/20 focus:border-[#6B9071] outline-none transition-all duration-300 bg-white/80 backdrop-blur-sm text-[#2E3A24] placeholder-[#2E3A24]/50 group-hover:border-[#6B9071]/50 text-sm md:text-base"
                         placeholder="Enter your full name"
                       />
                       <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
@@ -205,7 +168,7 @@ export default function ContactPage() {
 
                   {/* Email Field */}
                   <div className="group">
-                    <label htmlFor="email" className="block text-sm font-semibold text-[#2E3A24] mb-3 group-hover:text-[#6B9071] transition-colors duration-200">
+                    <label htmlFor="email" className="block text-sm font-semibold text-[#2E3A24] mb-2 md:mb-3 group-hover:text-[#6B9071] transition-colors duration-200">
                       Email Address *
                     </label>
                     <div className="relative">
@@ -216,7 +179,7 @@ export default function ContactPage() {
                         value={formData.email}
                         onChange={handleChange}
                         required
-                        className="w-full px-6 py-4 border-2 border-[#A8B5A2]/30 rounded-xl focus:ring-4 focus:ring-[#6B9071]/20 focus:border-[#6B9071] outline-none transition-all duration-300 bg-white/80 backdrop-blur-sm text-[#2E3A24] placeholder-[#2E3A24]/50 group-hover:border-[#6B9071]/50"
+                        className="w-full px-4 md:px-6 py-3 md:py-4 border-2 border-[#A8B5A2]/30 rounded-xl focus:ring-4 focus:ring-[#6B9071]/20 focus:border-[#6B9071] outline-none transition-all duration-300 bg-white/80 backdrop-blur-sm text-[#2E3A24] placeholder-[#2E3A24]/50 group-hover:border-[#6B9071]/50 text-sm md:text-base"
                         placeholder="Enter your email address"
                       />
                       <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
@@ -225,7 +188,7 @@ export default function ContactPage() {
 
                   {/* Phone Field */}
                   <div className="group">
-                    <label htmlFor="phone" className="block text-sm font-semibold text-[#2E3A24] mb-3 group-hover:text-[#6B9071] transition-colors duration-200">
+                    <label htmlFor="phone" className="block text-sm font-semibold text-[#2E3A24] mb-2 md:mb-3 group-hover:text-[#6B9071] transition-colors duration-200">
                       Phone Number *
                     </label>
                     <div className="relative">
@@ -236,7 +199,7 @@ export default function ContactPage() {
                         value={formData.phone}
                         onChange={handleChange}
                         required
-                        className="w-full px-6 py-4 border-2 border-[#A8B5A2]/30 rounded-xl focus:ring-4 focus:ring-[#6B9071]/20 focus:border-[#6B9071] outline-none transition-all duration-300 bg-white/80 backdrop-blur-sm text-[#2E3A24] placeholder-[#2E3A24]/50 group-hover:border-[#6B9071]/50"
+                        className="w-full px-4 md:px-6 py-3 md:py-4 border-2 border-[#A8B5A2]/30 rounded-xl focus:ring-4 focus:ring-[#6B9071]/20 focus:border-[#6B9071] outline-none transition-all duration-300 bg-white/80 backdrop-blur-sm text-[#2E3A24] placeholder-[#2E3A24]/50 group-hover:border-[#6B9071]/50 text-sm md:text-base"
                         placeholder="Enter your phone number"
                       />
                       <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
@@ -245,7 +208,7 @@ export default function ContactPage() {
 
                   {/* Service Dropdown */}
                   <div className="group">
-                    <label htmlFor="service" className="block text-sm font-semibold text-[#2E3A24] mb-3 group-hover:text-[#6B9071] transition-colors duration-200">
+                    <label htmlFor="service" className="block text-sm font-semibold text-[#2E3A24] mb-2 md:mb-3 group-hover:text-[#6B9071] transition-colors duration-200">
                       Service Required *
                     </label>
                     <div className="relative">
@@ -255,7 +218,7 @@ export default function ContactPage() {
                         value={formData.service}
                         onChange={handleChange}
                         required
-                        className="w-full px-6 py-4 border-2 border-[#A8B5A2]/30 rounded-xl focus:ring-4 focus:ring-[#6B9071]/20 focus:border-[#6B9071] outline-none transition-all duration-300 bg-white/80 backdrop-blur-sm text-[#2E3A24] group-hover:border-[#6B9071]/50 appearance-none"
+                        className="w-full px-4 md:px-6 py-3 md:py-4 border-2 border-[#A8B5A2]/30 rounded-xl focus:ring-4 focus:ring-[#6B9071]/20 focus:border-[#6B9071] outline-none transition-all duration-300 bg-white/80 backdrop-blur-sm text-[#2E3A24] group-hover:border-[#6B9071]/50 appearance-none text-sm md:text-base"
                       >
                         {services.map((service, index) => (
                           <option key={index} value={service}>
@@ -273,7 +236,7 @@ export default function ContactPage() {
 
                   {/* Message Field */}
                   <div className="group">
-                    <label htmlFor="message" className="block text-sm font-semibold text-[#2E3A24] mb-3 group-hover:text-[#6B9071] transition-colors duration-200">
+                    <label htmlFor="message" className="block text-sm font-semibold text-[#2E3A24] mb-2 md:mb-3 group-hover:text-[#6B9071] transition-colors duration-200">
                       Message *
                     </label>
                     <div className="relative">
@@ -284,7 +247,7 @@ export default function ContactPage() {
                         onChange={handleChange}
                         required
                         rows={4}
-                        className="w-full px-6 py-4 border-2 border-[#A8B5A2]/30 rounded-xl focus:ring-4 focus:ring-[#6B9071]/20 focus:border-[#6B9071] outline-none transition-all duration-300 bg-white/80 backdrop-blur-sm text-[#2E3A24] placeholder-[#2E3A24]/50 group-hover:border-[#6B9071]/50 resize-none"
+                        className="w-full px-4 md:px-6 py-3 md:py-4 border-2 border-[#A8B5A2]/30 rounded-xl focus:ring-4 focus:ring-[#6B9071]/20 focus:border-[#6B9071] outline-none transition-all duration-300 bg-white/80 backdrop-blur-sm text-[#2E3A24] placeholder-[#2E3A24]/50 group-hover:border-[#6B9071]/50 resize-none text-sm md:text-base"
                         placeholder="Describe your pest problem or specific requirements"
                       />
                       <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
@@ -303,11 +266,11 @@ export default function ContactPage() {
                   )}
 
                   {/* Submit Button */}
-                  <div className="pt-6">
+                  <div className="pt-4 md:pt-6">
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className={`w-full py-5 px-8 rounded-xl font-bold text-lg transition-all duration-300 transform focus:outline-none focus:ring-4 focus:ring-[#6B9071]/30 relative overflow-hidden group ${
+                      className={`w-full py-4 md:py-5 px-6 md:px-8 rounded-xl font-bold text-base md:text-lg transition-all duration-300 transform focus:outline-none focus:ring-4 focus:ring-[#6B9071]/30 relative overflow-hidden group ${
                         isSubmitting 
                           ? 'bg-gray-400 cursor-not-allowed' 
                           : 'bg-gradient-to-r from-[#2E3A24] to-[#6B9071] text-[#F7F3E9] hover:scale-105 hover:shadow-2xl'
@@ -341,88 +304,88 @@ export default function ContactPage() {
             </div>
 
             {/* Contact Info & Features */}
-            <div className="space-y-8">
+            <div className="space-y-6 md:space-y-8">
               {/* Emergency Contact */}
-              <div className="bg-[#2E3A24] rounded-3xl p-8 text-white shadow-2xl">
-                <div className="flex items-center space-x-4 mb-4">
-                  <div className="w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center">
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="bg-[#2E3A24] rounded-xl md:rounded-3xl p-4 md:p-8 text-white shadow-2xl">
+                <div className="flex items-center space-x-3 md:space-x-4 mb-3 md:mb-4">
+                  <div className="w-10 h-10 md:w-12 md:h-12 bg-white/20 rounded-xl md:rounded-2xl flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold">24/7 Emergency Service</h3>
-                    <p className="text-white/90">Urgent pest control needs</p>
+                    <h3 className="text-base md:text-xl font-bold">24/7 Emergency Service</h3>
+                    <p className="text-white/90 text-xs md:text-base">Urgent pest control needs</p>
                   </div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold mb-2">(0451) 004-400</div>
-                  <p className="text-white/80">Available round the clock</p>
+                  <div className="text-xl md:text-3xl font-bold mb-1 md:mb-2">(0451) 004-400</div>
+                  <p className="text-white/80 text-xs md:text-base">Available round the clock</p>
                 </div>
               </div>
 
               {/* Trust Stats Grid */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div className="bg-white rounded-2xl p-6 shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="grid grid-cols-2 sm:grid-cols-2 gap-3 md:gap-6">
+                <div className="bg-white rounded-xl md:rounded-2xl p-4 md:p-6 shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-[#2E3A24] mb-2">Free</div>
-                    <h4 className="text-lg font-bold text-[#2E3A24] mb-2">Quote & Inspection</h4>
-                    <p className="text-[#2E3A24]/70 text-sm">No hidden costs</p>
+                    <div className="text-xl md:text-3xl font-bold text-[#2E3A24] mb-1 md:mb-2">Free</div>
+                    <h4 className="text-sm md:text-lg font-bold text-[#2E3A24] mb-1 md:mb-2 leading-tight">Quote & Inspection</h4>
+                    <p className="text-[#2E3A24]/70 text-xs md:text-sm">No hidden costs</p>
                   </div>
                 </div>
 
-                <div className="bg-white rounded-2xl p-6 shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="bg-white rounded-xl md:rounded-2xl p-4 md:p-6 shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-[#2E3A24] mb-2">50,000+</div>
-                    <h4 className="text-lg font-bold text-[#2E3A24] mb-2">Jobs Completed</h4>
-                    <p className="text-[#2E3A24]/70 text-sm">Proven track record</p>
+                    <div className="text-xl md:text-3xl font-bold text-[#2E3A24] mb-1 md:mb-2">50,000+</div>
+                    <h4 className="text-sm md:text-lg font-bold text-[#2E3A24] mb-1 md:mb-2 leading-tight">Jobs Completed</h4>
+                    <p className="text-[#2E3A24]/70 text-xs md:text-sm">Proven track record</p>
                   </div>
                 </div>
-                <div className="bg-white rounded-2xl p-6 shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="bg-white rounded-xl md:rounded-2xl p-4 md:p-6 shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-[#2E3A24] mb-2">98%</div>
-                    <h4 className="text-lg font-bold text-[#2E3A24] mb-2">Success Rate</h4>
-                    <p className="text-[#2E3A24]/70 text-sm">Guaranteed results</p>
+                    <div className="text-xl md:text-3xl font-bold text-[#2E3A24] mb-1 md:mb-2">98%</div>
+                    <h4 className="text-sm md:text-lg font-bold text-[#2E3A24] mb-1 md:mb-2 leading-tight">Success Rate</h4>
+                    <p className="text-[#2E3A24]/70 text-xs md:text-sm">Guaranteed results</p>
                   </div>
                 </div>
 
-                <div className="bg-white rounded-2xl p-6 shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="bg-white rounded-xl md:rounded-2xl p-4 md:p-6 shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-[#2E3A24] mb-2">Full Warranty</div>
-                    <h4 className="text-lg font-bold text-[#2E3A24] mb-2">and Follow-up Treatment</h4>
-                    <p className="text-[#2E3A24]/70 text-sm">Included</p>
+                    <div className="text-xl md:text-3xl font-bold text-[#2E3A24] mb-1 md:mb-2">Full Warranty</div>
+                    <h4 className="text-sm md:text-lg font-bold text-[#2E3A24] mb-1 md:mb-2 leading-tight">and Follow-up Treatment</h4>
+                    <p className="text-[#2E3A24]/70 text-xs md:text-sm">Included</p>
                   </div>
                 </div>
 
               </div>
 
               {/* Key Benefits */}
-              <div className="bg-white rounded-2xl p-6 shadow-lg border border-white/20">
-                <h4 className="text-lg font-bold text-[#2E3A24] mb-4 text-center">Our Promise</h4>
-                <div className="space-y-3">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-6 h-6 bg-[#A8B5A2] rounded-full flex items-center justify-center">
-                      <span className="text-[#2E3A24] text-sm font-bold">✓</span>
+              <div className="bg-white rounded-xl md:rounded-2xl p-4 md:p-6 shadow-lg border border-white/20">
+                <h4 className="text-base md:text-lg font-bold text-[#2E3A24] mb-3 md:mb-4 text-center">Our Promise</h4>
+                <div className="space-y-2 md:space-y-3">
+                  <div className="flex items-center space-x-2 md:space-x-3">
+                    <div className="w-5 h-5 md:w-6 md:h-6 bg-[#A8B5A2] rounded-full flex items-center justify-center flex-shrink-0">
+                      <span className="text-[#2E3A24] text-xs md:text-sm font-bold">✓</span>
                     </div>
-                    <span className="text-[#2E3A24]/80 text-sm">Pet & Environment Friendly</span>
+                    <span className="text-[#2E3A24]/80 text-xs md:text-sm">Pet & Environment Friendly</span>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-6 h-6 bg-[#6B9071] rounded-full flex items-center justify-center">
-                      <span className="text-white text-sm font-bold">✓</span>
+                  <div className="flex items-center space-x-2 md:space-x-3">
+                    <div className="w-5 h-5 md:w-6 md:h-6 bg-[#6B9071] rounded-full flex items-center justify-center flex-shrink-0">
+                      <span className="text-white text-xs md:text-sm font-bold">✓</span>
                     </div>
-                    <span className="text-[#2E3A24]/80 text-sm">Residential & Commercial Treatment</span>
+                    <span className="text-[#2E3A24]/80 text-xs md:text-sm">Residential & Commercial Treatment</span>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-6 h-6 bg-[#2E3A24] rounded-full flex items-center justify-center">
-                      <span className="text-[#F7F3E9] text-sm font-bold">✓</span>
+                  <div className="flex items-center space-x-2 md:space-x-3">
+                    <div className="w-5 h-5 md:w-6 md:h-6 bg-[#2E3A24] rounded-full flex items-center justify-center flex-shrink-0">
+                      <span className="text-[#F7F3E9] text-xs md:text-sm font-bold">✓</span>
                     </div>
-                    <span className="text-[#2E3A24]/80 text-sm">Free Revisit During Warranty</span>
+                    <span className="text-[#2E3A24]/80 text-xs md:text-sm">Free Revisit During Warranty</span>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-6 h-6 bg-[#A8B5A2] rounded-full flex items-center justify-center">
-                      <span className="text-[#2E3A24] text-sm font-bold">✓</span>
+                  <div className="flex items-center space-x-2 md:space-x-3">
+                    <div className="w-5 h-5 md:w-6 md:h-6 bg-[#A8B5A2] rounded-full flex items-center justify-center flex-shrink-0">
+                      <span className="text-[#2E3A24] text-xs md:text-sm font-bold">✓</span>
                     </div>
-                    <span className="text-[#2E3A24]/80 text-sm">Licensed & Insured Professionals</span>
+                    <span className="text-[#2E3A24]/80 text-xs md:text-sm">Licensed & Insured Professionals</span>
                   </div>
                 </div>
               </div>
@@ -432,20 +395,20 @@ export default function ContactPage() {
       </section>
 
       {/* Additional Contact Information */}
-      <section className="py-20 bg-white">
+      <section className="py-12 md:py-16 lg:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#2E3A24] mb-6">
+          <div className="text-center mb-10 md:mb-12 lg:mb-16">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#2E3A24] mb-4 md:mb-6">
               Other Ways to <span className="text-[#6B9071]">Reach Us</span>
             </h2>
-            <p className="text-xl text-[#2E3A24]/80 max-w-3xl mx-auto">
+            <p className="text-base md:text-lg lg:text-xl text-[#2E3A24]/80 max-w-3xl mx-auto px-4">
               Prefer to contact us differently? We're available through multiple channels to serve you better.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {/* Phone Contact */}
-            <div className="text-center p-8 bg-[#F7F3E9] rounded-2xl">
+            <div className="text-center p-6 md:p-8 bg-[#F7F3E9] rounded-2xl">
               <div className="w-16 h-16 bg-[#6B9071] rounded-2xl flex items-center justify-center mx-auto mb-6">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -458,20 +421,20 @@ export default function ContactPage() {
             </div>
 
             {/* Email Contact */}
-            <div className="text-center p-8 bg-[#F7F3E9] rounded-2xl">
-              <div className="w-16 h-16 bg-[#2E3A24] rounded-2xl flex items-center justify-center mx-auto mb-6">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="text-center p-6 md:p-8 bg-[#F7F3E9] rounded-2xl">
+              <div className="w-12 h-12 md:w-16 md:h-16 bg-[#2E3A24] rounded-xl md:rounded-2xl flex items-center justify-center mx-auto mb-4 md:mb-6">
+                <svg className="w-6 h-6 md:w-8 md:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#2E3A24] mb-4">Email</h3>
-              <p className="text-[#2E3A24]/70 mb-4">Send us a detailed message</p>
-              <div className="text-lg font-semibold text-[#6B9071]">info@pestfreevictoria.com</div>
-              <p className="text-sm text-[#2E3A24]/60">Response within 24 hours</p>
+              <h3 className="text-lg md:text-xl font-bold text-[#2E3A24] mb-3 md:mb-4">Email</h3>
+              <p className="text-sm md:text-base text-[#2E3A24]/70 mb-3 md:mb-4">Send us a detailed message</p>
+              <div className="text-base md:text-lg font-semibold text-[#6B9071] break-all px-2">info@pestfreevictoria.com</div>
+              <p className="text-xs md:text-sm text-[#2E3A24]/60 mt-2">Response within 24 hours</p>
             </div>
 
             {/* Office Hours */}
-            <div className="text-center p-8 bg-[#F7F3E9] rounded-2xl">
+            <div className="text-center p-6 md:p-8 bg-[#F7F3E9] rounded-2xl">
               <div className="w-16 h-16 bg-[#A8B5A2] rounded-2xl flex items-center justify-center mx-auto mb-6">
                 <svg className="w-8 h-8 text-[#2E3A24]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -486,13 +449,13 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-[#2E3A24] to-[#6B9071] mb-2">
+      {/* CTA Section - Commented out for now */}
+      {/* <section className="py-12 md:py-16 lg:py-20 bg-gradient-to-r from-[#2E3A24] to-[#6B9071] mb-2">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#F7F3E9] mb-6">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#F7F3E9] mb-4 md:mb-6">
             Don't Wait - Get Started Today!
           </h2>
-          <p className="text-xl text-[#F7F3E9]/90 mb-8 max-w-2xl mx-auto">
+          <p className="text-base md:text-lg lg:text-xl text-[#F7F3E9]/90 mb-6 md:mb-8 max-w-2xl mx-auto px-4">
             Every day you wait is another day pests can cause damage to your property. 
             Contact us now for immediate assistance and peace of mind.
           </p>
@@ -511,7 +474,7 @@ export default function ContactPage() {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
