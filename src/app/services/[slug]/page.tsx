@@ -58,7 +58,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-              <section className="relative py-8 bg-gradient-to-br from-[#4A7C59] via-[#2E5D3A] to-[#1A3D1F] overflow-hidden">
+              <section className="relative py-12 sm:py-16 md:py-20 bg-gradient-to-br from-[#4A7C59] via-[#2E5D3A] to-[#1A3D1F] overflow-hidden">
         {/* Background Grid Pattern */}
         <div className="absolute inset-0 opacity-15">
           <div className="absolute inset-0" style={{
@@ -83,17 +83,25 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
           {/* Breadcrumbs Navigation */}
-          <div className="mb-8 text-center">
-            <nav className="flex items-center space-x-2 text-sm justify-center">
-              <Link href="/" className="text-[#AEC3B0] hover:text-white transition-colors duration-300">
+          <div className="mb-6 sm:mb-8 pt-4 sm:pt-6">
+            <nav className="flex items-center justify-center flex-wrap gap-x-2 gap-y-1 text-xs sm:text-sm md:text-base">
+              <Link 
+                href="/" 
+                className="text-white/90 hover:text-white transition-colors duration-300 font-medium"
+              >
                 Home
               </Link>
-              <span className="text-[#AEC3B0]">/</span>
-              <Link href="/services" className="text-[#AEC3B0] hover:text-white transition-colors duration-300">
+              <span className="text-white/70">/</span>
+              <Link 
+                href="/services" 
+                className="text-white/90 hover:text-white transition-colors duration-300 font-medium"
+              >
                 Services
               </Link>
-              <span className="text-[#AEC3B0]">/</span>
-              <span className="text-white">{service.title}</span>
+              <span className="text-white/70">/</span>
+              <span className="text-white font-semibold truncate max-w-[200px] sm:max-w-[300px] md:max-w-none">
+                {service.title}
+              </span>
             </nav>
           </div>
 
