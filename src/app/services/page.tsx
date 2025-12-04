@@ -105,8 +105,8 @@ export default function ServicesPage() {
     },
     {
       id: 11,
-      slug: "bedbug-extermination",
-      title: "Bedbug Extermination",
+      slug: "bed-bug-control",
+      title: "Bed Bug Control",
       description: "Professional bedbug extermination services using proven methods to completely eliminate infestations.",
       image: "/bugs.png",
       features: ["Complete Elimination", "Proven Methods", "Guaranteed Results"],

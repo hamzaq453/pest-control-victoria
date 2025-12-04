@@ -2564,6 +2564,478 @@
          "description": "Comprehensive general pest control services for residential and commercial properties. Wide coverage, cost-effective solutions.",
          "keywords": "general pest control, comprehensive pest control, residential pest control, commercial pest control, Victoria"
        }
+     },
+     {
+       "id": 8,
+       "slug": "dead-animal-removal",
+       "title": "Dead Animal Removal",
+       "shortTitle": "Professional Dead Animal Removal Services",
+       "description": "Professional and humane dead animal removal services, ensuring proper disposal and sanitization.",
+       "longDescription": "Expert dead animal removal services that ensure proper disposal, sanitization, and prevention of health hazards.",
+       "image": "/dead.png",
+       "heroImage": "/dead.png",
+       "category": "Wildlife Control",
+       "features": [
+         "Humane Service",
+         "Proper Disposal",
+         "Sanitization",
+         "Health Safety",
+         "Quick Response",
+         "Professional Handling"
+       ],
+       "benefits": [
+         {
+           "title": "Health Protection",
+           "description": "Eliminate health risks and odors associated with dead animals on your property.",
+           "icon": "shield"
+         },
+         {
+           "title": "Proper Disposal",
+           "description": "Professional disposal methods that comply with local regulations and environmental standards.",
+           "icon": "heart"
+         },
+         {
+           "title": "Complete Sanitization",
+           "description": "Thorough cleaning and sanitization to prevent disease transmission and odors.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Assessment",
+           "description": "Identify the location and condition of the dead animal.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Safe Removal",
+           "description": "Professional removal using appropriate protective equipment and handling techniques.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Proper Disposal",
+           "description": "Dispose of the animal according to local regulations and environmental standards.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Sanitization",
+           "description": "Thorough cleaning and sanitization of the affected area to prevent health risks.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Safe Removal",
+           "description": "Professional removal using protective equipment and proper handling techniques.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Proper Disposal",
+           "description": "Compliant disposal methods that meet local regulations.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Area Sanitization",
+           "description": "Complete cleaning and sanitization of affected areas.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Odor Elimination",
+           "description": "Professional odor removal and deodorization services.",
+           "image": "/S1.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you remove a dead animal?",
+           "answer": "We provide same-day service for dead animal removal, typically within 2-4 hours of your call."
+         },
+         {
+           "question": "Do you sanitize the area after removal?",
+           "answer": "Yes, we provide complete sanitization and deodorization of the affected area after removal."
+         },
+         {
+           "question": "What types of animals do you remove?",
+           "answer": "We remove all types of dead animals including rodents, birds, possums, and other wildlife."
+         },
+         {
+           "question": "Is the service safe for my family?",
+           "answer": "Yes, we use safe methods and protective equipment to ensure the safety of your family and pets."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$149",
+         "description": "Professional dead animal removal services starting from $149. Pricing depends on animal size and location.",
+         "included": [
+           "Safe removal",
+           "Proper disposal",
+           "Area sanitization",
+           "Odor elimination",
+           "Health safety measures"
+         ]
+       },
+       "relatedServices": [1, 7, 9, 17],
+       "meta": {
+         "keywords": "dead animal removal, animal disposal, wildlife removal, pest control Victoria, sanitization",
+         "description": "Professional dead animal removal services in Victoria. Safe, humane removal with proper disposal and sanitization."
+       }
+     },
+     {
+       "id": 12,
+       "slug": "residential-pest-management",
+       "title": "Residential Pest Management",
+       "shortTitle": "Comprehensive Residential Pest Management Services",
+       "description": "Comprehensive pest control solutions for residential properties, protecting your home and family.",
+       "longDescription": "Professional residential pest management services that protect your home and family from all types of pests with comprehensive solutions.",
+       "image": "/residential.png",
+       "heroImage": "/residential.png",
+       "category": "Management",
+       "features": [
+         "Family Safety",
+         "Home Protection",
+         "Comprehensive Service",
+         "Regular Maintenance",
+         "Expert Assessment",
+         "Preventive Approach"
+       ],
+       "benefits": [
+         {
+           "title": "Family Protection",
+           "description": "Keep your family safe from health risks associated with pest infestations.",
+           "icon": "shield"
+         },
+         {
+           "title": "Home Protection",
+           "description": "Protect your property from structural damage and pest-related issues.",
+           "icon": "heart"
+         },
+         {
+           "title": "Comprehensive Coverage",
+           "description": "Address all types of pests with a single comprehensive service plan.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Property Inspection",
+           "description": "Thorough inspection of your home to identify all pest problems and entry points.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Customized Plan",
+           "description": "Develop a tailored pest management plan for your specific residential needs.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Professional Treatment",
+           "description": "Apply safe and effective treatments to eliminate existing pests.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Ongoing Maintenance",
+           "description": "Regular follow-up visits and preventive measures to maintain a pest-free home.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Integrated Pest Management",
+           "description": "Comprehensive approach combining multiple treatment methods for residential properties.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Preventive Barriers",
+           "description": "Installation of barriers and exclusion systems to prevent pest entry.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Regular Maintenance",
+           "description": "Scheduled maintenance visits to ensure ongoing pest control.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Safe Treatments",
+           "description": "Family and pet-safe treatment methods for residential properties.",
+           "image": "/S1.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How often should I schedule residential pest control?",
+           "answer": "We recommend quarterly treatments for optimal pest control, with additional services as needed for specific problems."
+         },
+         {
+           "question": "Are the treatments safe for my family and pets?",
+           "answer": "Yes, we use safe, professional-grade products and follow strict safety protocols to protect your family and pets."
+         },
+         {
+           "question": "What pests are covered in residential pest management?",
+           "answer": "Our residential pest management covers all common household pests including ants, cockroaches, spiders, rodents, and more."
+         },
+         {
+           "question": "Do you offer emergency residential services?",
+           "answer": "Yes, we provide 24/7 emergency services for urgent residential pest problems."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$199",
+         "description": "Residential pest management services starting from $199. Pricing depends on property size and service frequency.",
+         "included": [
+           "Property inspection",
+           "Customized treatment plan",
+           "Professional treatment",
+           "Regular maintenance",
+           "Preventive measures"
+         ]
+       },
+       "relatedServices": [13, 14, 23, 8],
+       "meta": {
+         "keywords": "residential pest control, home pest management, residential pest management, pest control Victoria, home protection",
+         "description": "Comprehensive residential pest management services in Victoria. Protect your home and family with expert pest control solutions."
+       }
+     },
+     {
+       "id": 13,
+       "slug": "commercial-pest-management-solution",
+       "title": "Commercial Pest Management Solution",
+       "shortTitle": "Professional Commercial Pest Management Solutions",
+       "description": "Professional pest management solutions for businesses, ensuring compliance and maintaining your reputation.",
+       "longDescription": "Expert commercial pest management services that ensure compliance with health regulations and protect your business reputation.",
+       "image": "/commercial.png",
+       "heroImage": "/commercial.png",
+       "category": "Management",
+       "features": [
+         "Business Compliance",
+         "Reputation Protection",
+         "Minimal Disruption",
+         "Expert Assessment",
+         "Regular Maintenance",
+         "Documentation"
+       ],
+       "benefits": [
+         {
+           "title": "Regulatory Compliance",
+           "description": "Ensure compliance with health and safety regulations for your business.",
+           "icon": "shield"
+         },
+         {
+           "title": "Reputation Protection",
+           "description": "Protect your business reputation by maintaining a pest-free environment.",
+           "icon": "heart"
+         },
+         {
+           "title": "Minimal Disruption",
+           "description": "Services scheduled to minimize disruption to your business operations.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Business Assessment",
+           "description": "Comprehensive inspection of your commercial property to identify pest issues and compliance requirements.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Compliance Plan",
+           "description": "Develop a pest management plan that meets regulatory requirements and business needs.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Professional Treatment",
+           "description": "Apply effective treatments with minimal disruption to your business operations.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Ongoing Management",
+           "description": "Regular monitoring, maintenance, and documentation to ensure continued compliance.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Integrated Pest Management",
+           "description": "Comprehensive IPM approach for commercial properties.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Compliance Documentation",
+           "description": "Complete documentation for regulatory compliance and audits.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Scheduled Maintenance",
+           "description": "Regular maintenance visits with minimal business disruption.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Emergency Response",
+           "description": "24/7 emergency response for urgent commercial pest problems.",
+           "image": "/S1.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "Do you provide compliance documentation?",
+           "answer": "Yes, we provide complete documentation for all services to meet regulatory compliance requirements."
+         },
+         {
+           "question": "How do you minimize business disruption?",
+           "answer": "We schedule services during off-hours and use methods that allow your business to continue operating normally."
+         },
+         {
+           "question": "What types of commercial properties do you service?",
+           "answer": "We service all types of commercial properties including restaurants, offices, warehouses, retail stores, and more."
+         },
+         {
+           "question": "Do you offer emergency commercial services?",
+           "answer": "Yes, we provide 24/7 emergency services for urgent commercial pest problems that could affect your business operations."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$299",
+         "description": "Commercial pest management services starting from $299. Pricing depends on property size, type, and service frequency.",
+         "included": [
+           "Business assessment",
+           "Compliance plan",
+           "Professional treatment",
+           "Regular maintenance",
+           "Compliance documentation"
+         ]
+       },
+       "relatedServices": [12, 14, 23, 16],
+       "meta": {
+         "keywords": "commercial pest control, business pest management, commercial pest management, pest control Victoria, business compliance",
+         "description": "Professional commercial pest management solutions in Victoria. Ensure compliance and protect your business reputation."
+       }
+     },
+     {
+       "id": 16,
+       "slug": "same-day-emergency-services",
+       "title": "Same Day Emergency Services",
+       "shortTitle": "24/7 Same Day Emergency Pest Control Services",
+       "description": "24/7 emergency pest control services for urgent situations requiring immediate attention.",
+       "longDescription": "Professional emergency pest control services available 24/7 for urgent situations that require immediate attention and resolution.",
+       "image": "/emergency.jpg",
+       "heroImage": "/emergency.jpg",
+       "category": "Emergency",
+       "features": [
+         "24/7 Availability",
+         "Same Day Response",
+         "Emergency Hotline",
+         "Quick Resolution",
+         "Expert Response",
+         "Immediate Action"
+       ],
+       "benefits": [
+         {
+           "title": "Immediate Response",
+           "description": "Fast response times to address urgent pest problems that can't wait.",
+           "icon": "shield"
+         },
+         {
+           "title": "24/7 Availability",
+           "description": "Round-the-clock availability for emergency situations at any time.",
+           "icon": "heart"
+         },
+         {
+           "title": "Quick Resolution",
+           "description": "Rapid assessment and treatment to resolve emergency pest situations quickly.",
+           "icon": "leaf"
+         }
+       ],
+       "process": [
+         {
+           "step": 1,
+           "title": "Emergency Call",
+           "description": "Contact our 24/7 emergency hotline to report your urgent pest problem.",
+           "icon": "search"
+         },
+         {
+           "step": 2,
+           "title": "Rapid Assessment",
+           "description": "Quick on-site assessment to understand the emergency situation and required action.",
+           "icon": "clipboard"
+         },
+         {
+           "step": 3,
+           "title": "Immediate Treatment",
+           "description": "Fast application of appropriate treatments to address the emergency situation.",
+           "icon": "tools"
+         },
+         {
+           "step": 4,
+           "title": "Follow-up Care",
+           "description": "Follow-up visits and monitoring to ensure the emergency is fully resolved.",
+           "icon": "eye"
+         }
+       ],
+       "methods": [
+         {
+           "title": "Emergency Response",
+           "description": "Rapid response team available 24/7 for urgent pest situations.",
+           "image": "/S1.jpg"
+         },
+         {
+           "title": "Quick Treatment",
+           "description": "Fast-acting treatments to resolve emergency pest problems immediately.",
+           "image": "/S2.jpg"
+         },
+         {
+           "title": "Safety First",
+           "description": "Priority on safety while quickly addressing emergency situations.",
+           "image": "/S3.jpg"
+         },
+         {
+           "title": "Follow-up Support",
+           "description": "Ongoing support and monitoring after emergency treatment.",
+           "image": "/S1.jpg"
+         }
+       ],
+       "faqs": [
+         {
+           "question": "How quickly can you respond to an emergency?",
+           "answer": "We typically respond within 2-4 hours for emergency situations, with same-day service guaranteed."
+         },
+         {
+           "question": "What constitutes an emergency pest situation?",
+           "answer": "Emergency situations include dangerous pests (wasps, snakes), health hazards, or situations that could cause immediate property damage."
+         },
+         {
+           "question": "Do you charge extra for emergency services?",
+           "answer": "Emergency services may have a premium rate, but we provide transparent pricing upfront for all emergency calls."
+         },
+         {
+           "question": "Is emergency service available on weekends and holidays?",
+           "answer": "Yes, our 24/7 emergency service is available every day of the year, including weekends and holidays."
+         }
+       ],
+       "pricing": {
+         "startingPrice": "$249",
+         "description": "Emergency pest control services starting from $249. Pricing depends on the type and severity of the emergency.",
+         "included": [
+           "24/7 emergency hotline",
+           "Rapid response",
+           "Emergency assessment",
+           "Immediate treatment",
+           "Follow-up care"
+         ]
+       },
+       "relatedServices": [3, 7, 17, 13],
+       "meta": {
+         "keywords": "emergency pest control, 24/7 pest control, same day pest control, emergency pest removal, pest control Victoria",
+         "description": "24/7 same day emergency pest control services in Victoria. Fast response for urgent pest situations requiring immediate attention."
+       }
      }
    ]
  }
