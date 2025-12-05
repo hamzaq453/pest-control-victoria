@@ -1,8 +1,10 @@
 'use client';
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 
 export default function ContactPage() {
+  const router = useRouter();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -71,18 +73,8 @@ export default function ContactPage() {
       const data = await response.json();
 
       if (response.ok) {
-        setSubmitStatus({
-          type: 'success',
-          message: data.message
-        });
-        // Reset form
-        setFormData({
-          name: '',
-          email: '',
-          phone: '',
-          service: 'Free Quotation',
-          message: ''
-        });
+        // Redirect to thank you page for Google Ads conversion tracking
+        router.push('/thank-you');
       } else {
         setSubmitStatus({
           type: 'error',
