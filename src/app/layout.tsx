@@ -30,15 +30,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  // Google Ads conversion tag ID - can be overridden with NEXT_PUBLIC_GOOGLE_TAG_ID env variable
-  const googleTagId = process.env.NEXT_PUBLIC_GOOGLE_TAG_ID;
+  // Google Ads conversion tag ID - defaults to AW-17685108547, can be overridden with NEXT_PUBLIC_GOOGLE_TAG_ID env variable
+  const googleTagId = process.env.NEXT_PUBLIC_GOOGLE_TAG_ID || 'AW-17685108547';
 
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* Google Tag (gtag.js) */}
+        {/* Google tag (gtag.js) - Next.js Script component will handle placement correctly */}
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${googleTagId}`}
           strategy="afterInteractive"
