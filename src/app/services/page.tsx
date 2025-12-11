@@ -206,11 +206,11 @@ export default function ServicesPage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">
-              Our <span className="text-[#A8D5BA]">Services</span>
+              Professional Pest Control Services in <span className="text-[#A8D5BA]">Melbourne & Victoria</span>
             </h1>
             <p className="text-xl text-white/95 max-w-3xl mx-auto leading-relaxed drop-shadow-md">
-              Comprehensive pest control solutions tailored to your specific needs. 
-              From residential protection to commercial management, we've got you covered.
+              Comprehensive pest control solutions tailored to your specific needs in Melbourne, Geelong, Ballarat, and all of Victoria. 
+              From residential protection to commercial management, we provide fast, reliable pest control services near you.
             </p>
           </div>
         </div>
@@ -222,11 +222,12 @@ export default function ServicesPage() {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-[#2E3A24] mb-6">
-              Professional <span className="text-[#6B9071]">Pest Control</span> Solutions
+              Professional <span className="text-[#6B9071]">Pest Control</span> Solutions in Melbourne & Victoria
             </h2>
             <p className="text-xl text-[#2E3A24]/80 max-w-3xl mx-auto leading-relaxed">
-              Choose from our comprehensive range of pest control services, each designed to address specific pest problems 
-              with proven methods and guaranteed results.
+              Choose from our comprehensive range of pest control services available in Melbourne, Geelong, Ballarat, and across Victoria. 
+              Each service is designed to address specific pest problems with proven methods and guaranteed results. 
+              Get affordable pest control cost with competitive pricing and same-day service available near you.
             </p>
           </div>
 
@@ -262,7 +263,7 @@ export default function ServicesPage() {
                   </h3>
                   
                   <p className="text-[#2E3A24]/70 mb-4 leading-relaxed flex-grow">
-                    {service.description}
+                    {service.description} Available in Melbourne, Geelong, Ballarat, and all of Victoria with fast, reliable service.
                   </p>
 
                   {/* Features List */}
@@ -324,10 +325,11 @@ export default function ServicesPage() {
       <section className="py-20 bg-gradient-to-r from-[#2E3A24] to-[#6B9071] mb-2">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-[#F7F3E9] mb-6">
-            Ready to Solve Your Pest Problem?
+            Ready to Solve Your Pest Problem in Melbourne or Victoria?
           </h2>
           <p className="text-xl text-[#F7F3E9]/90 mb-8 max-w-2xl mx-auto">
-            Don't let pests take over your space. Our expert team is ready to provide you with a customized solution and free quote.
+            Don't let pests take over your space. Our expert team is ready to provide you with a customized pest control solution near you. 
+            Get your free quote today for affordable pest control cost with same-day service available across Melbourne and Victoria.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

@@ -62,16 +62,34 @@ export default function HeroSection() {
           {/* Left Column - Content */}
           <div className="space-y-8">
             <div className="space-y-4">
+              <div className="inline-block bg-[#A8B5A2] text-[#2E3A24] px-4 py-2 rounded-full text-sm font-semibold mb-2">
+                Proud to be Melbourne's #1 Most Trusted Exterminators
+              </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#F7F3E9] leading-tight">
-                <span className="text-[#F7F3E9]">Pest-Free</span> Living
+                <span className="text-[#F7F3E9]">Local Pest Control</span> Near You
                 <br />
-                <span className="text-[#A8B5A2]">Starts Here</span>
+                <span className="text-[#A8B5A2]">Fast, Safe & Affordable in Victoria</span>
               </h1>
               
               <p className="text-xl md:text-2xl text-[#F7F3E9]/90 leading-relaxed">
-                Professional pest control services that protect your home and business. 
-                <span className="font-semibold text-[#A8B5A2]"> 24/7 Emergency Response</span> available.
+                Professional pest control services in Melbourne & Victoria that protect your home and business. 
+                <span className="font-semibold text-[#A8B5A2]"> 24/7 Emergency Response</span> available. 
+                <span className="font-semibold text-[#A8B5A2]"> Same-day service</span> across Victoria.
               </p>
+              
+              {/* Discount Banner */}
+              <div className="bg-gradient-to-r from-[#6B9071] to-[#A8B5A2] text-[#2E3A24] px-6 py-3 rounded-xl font-bold text-lg md:text-xl shadow-lg">
+                Grab your 20% seasonal discount now with free quotation.
+              </div>
+              
+              {/* Location Badges */}
+              <div className="flex flex-wrap items-center gap-3 pt-2">
+                <span className="text-sm text-[#F7F3E9]/80">Serving:</span>
+                <span className="text-sm bg-[#2E3A24]/50 text-[#F7F3E9] px-3 py-1 rounded-full">Melbourne</span>
+                <span className="text-sm bg-[#2E3A24]/50 text-[#F7F3E9] px-3 py-1 rounded-full">Geelong</span>
+                <span className="text-sm bg-[#2E3A24]/50 text-[#F7F3E9] px-3 py-1 rounded-full">Ballarat</span>
+                <span className="text-sm bg-[#2E3A24]/50 text-[#F7F3E9] px-3 py-1 rounded-full">All Victoria</span>
+              </div>
             </div>
 
             {/* Key Benefits */}
@@ -107,18 +125,24 @@ export default function HeroSection() {
             </div>
 
             {/* Trust Indicators */}
-            <div className="flex items-center space-x-6 pt-4">
+            <div className="flex flex-wrap items-center gap-4 sm:gap-6 pt-4">
               <div className="flex items-center space-x-2">
                 <div className="w-8 h-8 bg-[#A8B5A2] rounded-full flex items-center justify-center">
                   <span className="text-[#1A2314] text-sm font-bold">✓</span>
                 </div>
-                <span className="text-[#F7F3E9] font-medium">500+ Happy Customers</span>
+                <span className="text-[#F7F3E9] font-medium text-sm sm:text-base">500+ Happy Customers in Melbourne & Victoria</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-8 h-8 bg-[#A8B5A2] rounded-full flex items-center justify-center">
                   <span className="text-[#F7F3E9] text-sm font-bold">★</span>
                 </div>
-                <span className="text-[#F7F3E9] font-medium">5-Star Rated</span>
+                <span className="text-[#F7F3E9] font-medium text-sm sm:text-base">5-Star Rated</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <div className="w-8 h-8 bg-[#A8B5A2] rounded-full flex items-center justify-center">
+                  <span className="text-[#1A2314] text-sm font-bold">20%</span>
+                </div>
+                <span className="text-[#F7F3E9] font-medium text-sm sm:text-base">Discount Available</span>
               </div>
             </div>
           </div>

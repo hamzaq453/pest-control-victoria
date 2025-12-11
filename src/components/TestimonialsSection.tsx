@@ -49,31 +49,45 @@ export default function TestimonialsSection() {
     <section className="py-20 bg-[#F7F3E9]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-[#2E3A24] mb-6">
             What Our <span className="text-deep-forest">Customers Say</span>
           </h2>
-          <p className="text-xl text-[#2E3A24]/80 max-w-3xl mx-auto leading-relaxed">
-            Don't just take our word for it. Here's what our satisfied customers across Victoria have to say about our pest control services.
+          <p className="text-xl text-[#2E3A24]/80 max-w-3xl mx-auto leading-relaxed mb-8">
+            Don't just take our word for it. Here's what our satisfied customers across Melbourne, Geelong, Ballarat, and all of Victoria have to say about our pest control services.
           </p>
         </div>
 
-        {/* Overall Rating
+        {/* Overall Rating & Trust Signals */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center space-x-4 bg-white rounded-2xl px-8 py-6 shadow-lg">
+          <div className="inline-flex flex-wrap items-center justify-center gap-6 bg-white rounded-2xl px-6 md:px-8 py-6 shadow-lg">
             <div className="text-center">
               <div className="text-4xl font-bold text-[#2E3A24]">4.9</div>
               <div className="text-sm text-[#2E3A24]/70">Average Rating</div>
+              <div className="flex items-center justify-center space-x-1 mt-1">
+                {renderStars(5)}
+              </div>
             </div>
-            <div className="flex items-center space-x-1">
-              {renderStars(5)}
-            </div>
+            <div className="h-12 w-px bg-[#A8B5A2] hidden sm:block"></div>
             <div className="text-center">
               <div className="text-2xl font-bold text-[#6B9071]">500+</div>
               <div className="text-sm text-[#2E3A24]/70">Happy Customers</div>
+              <div className="text-xs text-[#2E3A24]/60 mt-1">in Melbourne & Victoria</div>
+            </div>
+            <div className="h-12 w-px bg-[#A8B5A2] hidden sm:block"></div>
+            <div className="text-center">
+              <div className="text-2xl font-bold text-[#6B9071]">24/7</div>
+              <div className="text-sm text-[#2E3A24]/70">Emergency Service</div>
+              <div className="text-xs text-[#2E3A24]/60 mt-1">Same-day response</div>
+            </div>
+            <div className="h-12 w-px bg-[#A8B5A2] hidden sm:block"></div>
+            <div className="text-center">
+              <div className="text-2xl font-bold text-[#6B9071]">100%</div>
+              <div className="text-sm text-[#2E3A24]/70">Licensed & Insured</div>
+              <div className="text-xs text-[#2E3A24]/60 mt-1">Guaranteed results</div>
             </div>
           </div>
-        </div> */}
+        </div>
 
         {/* Testimonials Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -88,9 +102,26 @@ export default function TestimonialsSection() {
               </div>
 
               {/* Review Text */}
-              <p className="text-creamy-white leading-relaxed mb-6 italic">
+              <p className="text-creamy-white leading-relaxed mb-4 italic">
                 "{testimonial.review}"
               </p>
+              
+              {/* Case Study Info */}
+              {testimonial.service === "Ant Control" && (
+                <p className="text-xs text-creamy-white/70 mb-4">
+                  ✓ Removed ant infestation in 2 hours - {testimonial.location}
+                </p>
+              )}
+              {testimonial.service === "Wasp Control" && (
+                <p className="text-xs text-creamy-white/70 mb-4">
+                  ✓ Emergency wasp nest removal - 2 hour response time
+                </p>
+              )}
+              {testimonial.service === "Spider Control" && (
+                <p className="text-xs text-creamy-white/70 mb-4">
+                  ✓ Complete property treatment - Professional service
+                </p>
+              )}
 
               {/* Service Badge */}
               <div className="inline-block bg-[#A8B5A2] text-[#2E3A24] px-3 py-1 rounded-full text-sm font-medium mb-4">
