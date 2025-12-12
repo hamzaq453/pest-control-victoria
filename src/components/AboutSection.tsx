@@ -21,6 +21,9 @@ export default function AboutSection() {
           <div className="flex items-center justify-center p-6 sm:p-8 lg:p-16 order-1 lg:order-2">
             <div className="max-w-lg space-y-6 lg:space-y-8">
               <div className="space-y-4">
+                <div className="inline-block bg-[#6B9071] text-white px-4 py-2 rounded-full text-sm font-semibold mb-2">
+                  Proud to be Melbourne's #1 Most Trusted Exterminators
+                </div>
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#2E3A24] leading-tight">
                   Professional <span className="text-[#6B9071]">Pest Control</span> Services
                 </h2>

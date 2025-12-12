@@ -5,11 +5,11 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const services = [
-    { name: "Ant Control", slug: "ant-control" },
-    { name: "Spider Control", slug: "spider-control" },
-    { name: "Mice & Rat Control", slug: "mice-and-rats" },
-    { name: "Wasp Control", slug: "wasp-control" },
-    { name: "Possum Removal", slug: "possum-control-and-removal" }
+    { name: "Pest Control Near Me", slug: "/pest-control-near-me" },
+    { name: "Pest Control Cost", slug: "/pest-control-cost" },
+    { name: "Eco-Friendly Pest Control", slug: "/eco-friendly-pest-control" },
+    { name: "Fumigation Services", slug: "/fumigation-services" },
+    { name: "Emergency Pest Control", slug: "same-day-emergency-services" }
   ];
 
   const quickLinks = [
@@ -90,7 +90,7 @@ export default function Footer() {
             <div className="space-y-3 md:space-y-6">
               <h4 className="text-base md:text-lg font-semibold text-[#A8B5A2]">Our Services</h4>
               <ul className="space-y-2 md:space-y-3">
-                {services.slice(0, -1).map((service, index) => (
+                {services.map((service, index) => (
                   <li key={`${service.name}-${index}`}>
                     <Link 
                       href={service.slug.startsWith('/') ? service.slug : `/services/${service.slug}`}
